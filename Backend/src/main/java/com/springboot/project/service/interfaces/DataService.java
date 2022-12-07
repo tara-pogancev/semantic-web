@@ -1,10 +1,12 @@
 package com.springboot.project.service.interfaces;
 
+import com.springboot.project.dto.FileUploadDTO;
+
 import java.io.IOException;
 
 public interface DataService {
 
-    String generateRdfFile() throws IOException;
+    String uploadFile(FileUploadDTO dto) throws IOException;
 
     String getUriFromName(String name);
 

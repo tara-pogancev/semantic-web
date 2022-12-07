@@ -1,5 +1,6 @@
 package com.springboot.project.service;
 
+import com.springboot.project.dto.FileUploadDTO;
 import com.springboot.project.model.AcmOntologyModel;
 import com.springboot.project.service.interfaces.DataService;
 import com.springboot.project.service.interfaces.OntologyService;
@@ -24,20 +25,23 @@ public class DataServiceImpl implements DataService {
     private final OntologyService ontologyService;
 
     @Override
-    public String generateRdfFile() throws IOException {
+    public String uploadFile(FileUploadDTO dto) throws IOException {
         AcmOntologyModel ontologyModel = ontologyService.getAcmOntologyModel();
 
         Model model = ModelFactory.createDefaultModel();
-        Resource node = model.createResource(getUriFromName("Tara Pogancev"))
-                        .addProperty(ontologyModel.getNameProperty(), "Tara Pogancev")
-                        .addProperty(ontologyModel.getDescriptionProperty(), "tarin opis");
+        Resource node = model.createResource(getUriFromName(dto.name))
+                .addProperty(ontologyModel.getDifficultyLevelProperty(), dto.difficultyLevel.toString())
+                .addProperty(ontologyModel.getFormatProperty(), dto.format)
+                .addProperty(ontologyModel.getNameProperty(), dto.name)
+                .addProperty(ontologyModel.getAuthorProperty(), dto.author);
+
 
         FileWriter out = new FileWriter(DATA_FILE, true);
         model.write(out, "RDF/XML");
         out.write("\n\n");
         out.close();
 
-        return "Succesfully written into RDF file";
+        return "Successfully written into RDF file";
     }
 
     @Override

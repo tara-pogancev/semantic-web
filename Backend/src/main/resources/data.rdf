@@ -1,0 +1,10 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#">
+  <rdf:Description rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology/analiza+podataka+1">
+    <j.0:author>Tara Pogancev</j.0:author>
+    <j.0:name>Analiza podataka 1</j.0:name>
+    <j.0:format>PDF</j.0:format>
+    <j.0:description>1</j.0:description>
+  </rdf:Description>
+</rdf:RDF>
