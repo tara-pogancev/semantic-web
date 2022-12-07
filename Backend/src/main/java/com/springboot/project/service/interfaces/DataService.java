@@ -6,4 +6,6 @@ public interface DataService {
 
     String generateRdfFile() throws IOException;
 
+    String getUriFromName(String name);
+
 }
