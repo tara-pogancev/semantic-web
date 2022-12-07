@@ -22,6 +22,7 @@ public class OntologyServiceImpl implements OntologyService {
     private static final String ACM_ONTOLOGY = "sec_ontology.owl";
     private static final String BIBO_ONTOLOGY = "bibo.owl";
     private static final String ACM_URI_PREFIX = "http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#";
+    private static final String BIBO_URI_PREFIX = "http://purl.org/ontology/bibo/";
 
     @Override
     public AcmOntologyModel getAcmOntologyModel() throws IOException {
@@ -59,8 +60,19 @@ public class OntologyServiceImpl implements OntologyService {
     }
 
     @Override
-    public BiboOntologyModel getBiboOntologyModel() {
-        return null;
+    public BiboOntologyModel getBiboOntologyModel() throws IOException {
+        OntModel ontModel =  ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        ontModel.read(new FileInputStream(new ClassPathResource(BIBO_ONTOLOGY).getFile()), "");
+        ontModel.setStrictMode(false);
+
+        BiboOntologyModel model = new BiboOntologyModel();
+
+        model.setContentProprety(ontModel.getProperty(ACM_URI_PREFIX + "content").as(OntProperty.class));
+        model.setNumberProperty(ontModel.getProperty(ACM_URI_PREFIX + "number").as(OntProperty.class));
+        model.setSectionProperty(ontModel.getProperty(ACM_URI_PREFIX + "section").as(OntProperty.class));
+        model.setCitedBy(ontModel.getProperty(ACM_URI_PREFIX + "citedBy").as(OntProperty.class));
+
+        return model;
     }
 
 }

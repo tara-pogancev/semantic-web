@@ -9,6 +9,6 @@ public interface OntologyService {
 
     AcmOntologyModel getAcmOntologyModel() throws IOException;
 
-    BiboOntologyModel getBiboOntologyModel();
+    BiboOntologyModel getBiboOntologyModel() throws IOException;
 
 }

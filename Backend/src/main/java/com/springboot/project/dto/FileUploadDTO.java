@@ -2,6 +2,8 @@ package com.springboot.project.dto;
 
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 public class FileUploadDTO {
 
@@ -9,5 +11,6 @@ public class FileUploadDTO {
     public String name;
     public String format;
     public String author;
+    public List<BiboReferencesDTO> cites;
 
 }

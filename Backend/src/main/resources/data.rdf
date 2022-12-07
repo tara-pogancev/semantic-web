@@ -1,10 +1,48 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:j.0="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#">
-  <rdf:Description rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology/analiza+podataka+1">
+  <rdf:Description rdf:about="http://purl.org/ontology/bibo/bibo-document/nesto+o+algebri">
+    <j.0:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology/learning-resource/nesto+o+algebri</j.0:citedBy>
+    <j.0:number>2</j.0:number>
+    <j.0:section>15</j.0:section>
+    <j.0:content>Nesto o algebri</j.0:content>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology/learning-resource/analiza+podataka+1">
     <j.0:author>Tara Pogancev</j.0:author>
     <j.0:name>Analiza podataka 1</j.0:name>
     <j.0:format>PDF</j.0:format>
     <j.0:description>1</j.0:description>
   </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/bibo/bibo-document/nesto+o+analizi+da">
+    <j.0:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology/learning-resource/nesto+o+analizi+da</j.0:citedBy>
+    <j.0:number>3</j.0:number>
+    <j.0:section>5</j.0:section>
+    <j.0:content>Nesto o analizi da</j.0:content>
+  </rdf:Description>
 </rdf:RDF>
+
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#">
+  <rdf:Description rdf:about="http://purl.org/ontology/bibo/bibo-document/nesto+o+algebri">
+    <j.0:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology/learning-resource/nesto+o+algebri</j.0:citedBy>
+    <j.0:number>2</j.0:number>
+    <j.0:section>15</j.0:section>
+    <j.0:content>Nesto o algebri</j.0:content>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology/learning-resource/analiza+podataka+1">
+    <j.0:author>Tara Pogancev</j.0:author>
+    <j.0:name>Analiza podataka 1</j.0:name>
+    <j.0:format>PDF</j.0:format>
+    <j.0:description>1</j.0:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/bibo/bibo-document/nesto+o+analizi+da">
+    <j.0:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology/learning-resource/nesto+o+analizi+da</j.0:citedBy>
+    <j.0:number>3</j.0:number>
+    <j.0:section>5</j.0:section>
+    <j.0:content>Nesto o analizi da</j.0:content>
+  </rdf:Description>
+</rdf:RDF>
+
+
