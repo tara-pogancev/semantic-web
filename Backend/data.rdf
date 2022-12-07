@@ -1,0 +1,8 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#">
+  <rdf:Description rdf:about="http://localhost/amitkumar">
+    <j.0:description>tarin opis bre</j.0:description>
+    <j.0:name>Tara Pogancev</j.0:name>
+  </rdf:Description>
+</rdf:RDF>
