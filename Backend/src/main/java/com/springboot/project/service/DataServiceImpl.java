@@ -29,6 +29,9 @@ public class DataServiceImpl implements DataService {
         AcmOntologyModel acmOntologyModel = ontologyService.getAcmOntologyModel();
         BiboOntologyModel biboOntologyModel = ontologyService.getBiboOntologyModel();
 
+        // TODO: Uraditi preko individuala i ponovo upisati u fajl
+        // TODO: popuniti rdf fajl podacima iz acm
+
         Model model = ModelFactory.createDefaultModel();
         model.createResource(getUriLearningResource(dto.name))
                 .addProperty(acmOntologyModel.getDifficultyLevelProperty(), dto.difficultyLevel.toString())
@@ -41,7 +44,8 @@ public class DataServiceImpl implements DataService {
                     .addProperty(biboOntologyModel.getContentProprety(), biboReference.content)
                     .addProperty(biboOntologyModel.getSectionProperty(), biboReference.section.toString())
                     .addProperty(biboOntologyModel.getNumberProperty(), biboReference.number.toString())
-                    .addProperty(biboOntologyModel.getCitedBy(), getUriLearningResource(biboReference.content));
+                    .addProperty(biboOntologyModel.getCitedBy(), getUriLearningResource(biboReference.content))
+                    ;
         }
 
         FileWriter out = new FileWriter(DATA_FILE, true);
