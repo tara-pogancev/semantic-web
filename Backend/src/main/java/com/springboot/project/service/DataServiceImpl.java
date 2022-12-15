@@ -9,8 +9,6 @@ import com.springboot.project.service.interfaces.OntologyService;
 import lombok.RequiredArgsConstructor;
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntModel;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -31,7 +29,7 @@ public class DataServiceImpl implements DataService {
     private static final String DATA_FILE = ".\\src\\main\\resources\\data.rdf";
     private static final String ACM_INDIVIDUALS_FEED_FILE = "sec_ontology_individuals.xlsx";
     private static final String ACM_URI_PREFIX = "http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#";
-    private static final String BIBO_URI_PREFIX = "http://purl.org/ontology/bibo#";
+    private static final String BIBO_URI_PREFIX = "http://purl.org/ontology/bibo/";
 
     public static final String OK_UPLOAD_FILE = "Successfully written into RDF file";
     public static final String OK_GENERATE_RDF = "Successfully generated starter RDF file";
@@ -46,26 +44,27 @@ public class DataServiceImpl implements DataService {
         AcmOntologyModel acmOntologyModel = ontologyService.getAcmOntologyModel(acmOm);
         BiboOntologyModel biboOntologyModel = ontologyService.getBiboOntologyModel(biboOm);
 
-        // TODO: Uraditi preko individuala i ponovo upisati u fajl
-
-        Model model = ModelFactory.createDefaultModel();
-        model.createResource(getUriLearningResource(dto.name))
-                .addProperty(acmOntologyModel.getDifficultyLevelProperty(), dto.difficultyLevel.toString())
-                .addProperty(acmOntologyModel.getFormatProperty(), dto.format)
-                .addProperty(acmOntologyModel.getNameProperty(), dto.name)
-                .addProperty(acmOntologyModel.getAuthorProperty(), dto.author);
+        Individual fileIndividual = acmOntologyModel.learningResource.createIndividual(getUriLearningResource(dto.name));
+        fileIndividual.addLiteral(acmOntologyModel.difficultyLevelProperty, dto.difficultyLevel.toString())
+                .addLiteral(acmOntologyModel.formatProperty, dto.format)
+                .addLiteral(acmOntologyModel.nameProperty, dto.name)
+                .addLiteral(acmOntologyModel.authorProperty, dto.author);
+        acmOm.createIndividual(fileIndividual);
 
         for (BiboReferencesDTO biboReference : dto.cites) {
-            model.createResource(getUriBiboDocument(biboReference.content))
-                    .addProperty(biboOntologyModel.getContentProprety(), biboReference.content)
-                    .addProperty(biboOntologyModel.getSectionProperty(), biboReference.section.toString())
-                    .addProperty(biboOntologyModel.getNumberProperty(), biboReference.number.toString())
-                    .addProperty(biboOntologyModel.getCitedBy(), getUriLearningResource(biboReference.content))
-                    ;
+            String id = getUriBiboDocument(biboReference.content);
+            Individual referenceIndividual = biboOntologyModel.document.createIndividual(id);
+            referenceIndividual.addLiteral(biboOntologyModel.contentProprety, biboReference.content)
+                    .addLiteral(biboOntologyModel.sectionProperty, biboReference.section.toString())
+                    .addLiteral(biboOntologyModel.numberProperty, biboReference.number.toString())
+                    .addLiteral(biboOntologyModel.getCitedBy(), getUriLearningResource(dto.name));
+
+            biboOm.createIndividual(referenceIndividual);
         }
 
-        FileWriter out = new FileWriter(DATA_FILE, true);
-        model.write(out, "RDF/XML");
+        FileWriter out = new FileWriter(DATA_FILE, false);
+        acmOm.write(out, "RDF/XML");
+        biboOm.write(out, "RDF/XML");
         out.write("\n\n");
         out.close();
 
