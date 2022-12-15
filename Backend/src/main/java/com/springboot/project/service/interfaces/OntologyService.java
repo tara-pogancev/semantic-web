@@ -8,9 +8,9 @@ import java.io.IOException;
 
 public interface OntologyService {
 
-    AcmOntologyModel getAcmOntologyModel() throws IOException;
+    AcmOntologyModel getAcmOntologyModel(OntModel ontModel) throws IOException;
 
-    BiboOntologyModel getBiboOntologyModel() throws IOException;
+    BiboOntologyModel getBiboOntologyModel(OntModel ontModel) throws IOException;
 
     OntModel getAcmOntModel() throws IOException;
 

@@ -40,8 +40,11 @@ public class DataServiceImpl implements DataService {
 
     @Override
     public String uploadFile(FileUploadDTO dto) throws IOException {
-        AcmOntologyModel acmOntologyModel = ontologyService.getAcmOntologyModel();
-        BiboOntologyModel biboOntologyModel = ontologyService.getBiboOntologyModel();
+        OntModel acmOm = ontologyService.getAcmOntModel();
+        OntModel biboOm = ontologyService.getBiboOntModel();
+
+        AcmOntologyModel acmOntologyModel = ontologyService.getAcmOntologyModel(acmOm);
+        BiboOntologyModel biboOntologyModel = ontologyService.getBiboOntologyModel(biboOm);
 
         // TODO: Uraditi preko individuala i ponovo upisati u fajl
 
@@ -69,10 +72,15 @@ public class DataServiceImpl implements DataService {
         return OK_UPLOAD_FILE;
     }
 
+    /***
+     * Code source from:
+     * https://github.com/sasa-boros/acm-curriculum-explorer/blob/master/metahand-server/src/main/resources/sec_ontology.owl
+     * @throws IOException
+     */
     @Override
     public String generateStarterRdf() throws IOException {
         OntModel om = ontologyService.getAcmOntModel();
-        AcmOntologyModel model = ontologyService.getAcmOntologyModel();
+        AcmOntologyModel acmOntology = ontologyService.getAcmOntologyModel(om);
 
         FileInputStream excelFile = new FileInputStream(new ClassPathResource(ACM_INDIVIDUALS_FEED_FILE).getFile());
         Workbook workbook = new XSSFWorkbook(excelFile);
@@ -87,9 +95,9 @@ public class DataServiceImpl implements DataService {
             String name = currentRow.getCell(1).getStringCellValue();
             int estimatedContactHours = (int) currentRow.getCell(2).getNumericCellValue();
 
-            Individual individual = model.knowledgeArea.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(model.nameProperty,  om.createTypedLiteral(name));
-            individual.addLiteral(model.estimatedContactHoursProperty,  om.createTypedLiteral(estimatedContactHours));
+            Individual individual = acmOntology.knowledgeArea.createIndividual(ACM_URI_PREFIX + id);
+            individual.addLiteral(acmOntology.nameProperty,  om.createTypedLiteral(name));
+            individual.addLiteral(acmOntology.estimatedContactHoursProperty,  om.createTypedLiteral(estimatedContactHours));
             knowledgeAreas.put(id, individual);
             om.createIndividual(individual);
         }
@@ -104,11 +112,11 @@ public class DataServiceImpl implements DataService {
             String name = currentRow.getCell(1).getStringCellValue();
             String knowledgeAreaId = currentRow.getCell(2).getStringCellValue();
 
-            Individual individual = model.knowledgeUnit.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(model.nameProperty,  om.createTypedLiteral(name));
+            Individual individual = acmOntology.knowledgeUnit.createIndividual(ACM_URI_PREFIX + id);
+            individual.addLiteral(acmOntology.nameProperty,  om.createTypedLiteral(name));
 
             Individual knowledgeAreaIndividual = knowledgeAreas.get(knowledgeAreaId);
-            knowledgeAreaIndividual.addProperty(model.consistsOf, individual);
+            knowledgeAreaIndividual.addProperty(acmOntology.consistsOf, individual);
 
             knowledgeUnits.put(id, individual);
             om.createIndividual(individual);
@@ -124,11 +132,11 @@ public class DataServiceImpl implements DataService {
             String description = currentRow.getCell(1).getStringCellValue();
             String knowledgeUnitId = currentRow.getCell(2).getStringCellValue();
 
-            Individual individual = model.learningOutcome.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(model.descriptionProperty,  om.createTypedLiteral(description));
+            Individual individual = acmOntology.learningOutcome.createIndividual(ACM_URI_PREFIX + id);
+            individual.addLiteral(acmOntology.descriptionProperty,  om.createTypedLiteral(description));
 
             Individual knowledgeUnitIndividual = knowledgeUnits.get(knowledgeUnitId);
-            knowledgeUnitIndividual.addProperty(model.includes, individual);
+            knowledgeUnitIndividual.addProperty(acmOntology.includes, individual);
 
             learningOutcomes.put(id, individual);
             om.createIndividual(individual);
@@ -147,15 +155,15 @@ public class DataServiceImpl implements DataService {
             int levelOfStudy = (int) currentRow.getCell(4).getNumericCellValue();
             String teacher = currentRow.getCell(5).getStringCellValue();
 
-            Individual individual = model.course.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(model.nameProperty,  om.createTypedLiteral(name));
-            individual.addLiteral(model.difficultyLevelProperty,  om.createTypedLiteral(difficultyLevel));
-            individual.addLiteral(model.levelOfStudyProperty,  om.createTypedLiteral(levelOfStudy));
-            individual.addLiteral(model.teacherProperty,  om.createTypedLiteral(teacher));
+            Individual individual = acmOntology.course.createIndividual(ACM_URI_PREFIX + id);
+            individual.addLiteral(acmOntology.nameProperty,  om.createTypedLiteral(name));
+            individual.addLiteral(acmOntology.difficultyLevelProperty,  om.createTypedLiteral(difficultyLevel));
+            individual.addLiteral(acmOntology.levelOfStudyProperty,  om.createTypedLiteral(levelOfStudy));
+            individual.addLiteral(acmOntology.teacherProperty,  om.createTypedLiteral(teacher));
 
             for (String loId : learningOutcomeIds) {
                 Individual learningOutcomeIndividual = learningOutcomes.get(loId);
-                individual.addProperty(model.teaches, learningOutcomeIndividual);
+                individual.addProperty(acmOntology.teaches, learningOutcomeIndividual);
             }
 
             courses.put(id, individual);
@@ -175,19 +183,19 @@ public class DataServiceImpl implements DataService {
             int difficultyLevel = (int) currentRow.getCell(4).getNumericCellValue();
             String format = currentRow.getCell(5).getStringCellValue();
 
-            Individual individual = model.learningResource.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(model.authorProperty,  om.createTypedLiteral(author));
-            individual.addLiteral(model.difficultyLevelProperty,  om.createTypedLiteral(difficultyLevel));
-            individual.addLiteral(model.formatProperty,  om.createTypedLiteral(format));
+            Individual individual = acmOntology.learningResource.createIndividual(ACM_URI_PREFIX + id);
+            individual.addLiteral(acmOntology.authorProperty,  om.createTypedLiteral(author));
+            individual.addLiteral(acmOntology.difficultyLevelProperty,  om.createTypedLiteral(difficultyLevel));
+            individual.addLiteral(acmOntology.formatProperty,  om.createTypedLiteral(format));
 
             for (String cId : coursesIds) {
                 Individual courseIndividual = courses.get(cId);
-                courseIndividual.addProperty(model.isTaughtUsing, individual);
+                courseIndividual.addProperty(acmOntology.isTaughtUsing, individual);
             }
 
             for (String loId : learningOutcomeIds) {
                 Individual learningOutcomeIndividual = learningOutcomes.get(loId);
-                learningOutcomeIndividual.addProperty(model.obtainedBy, individual);
+                learningOutcomeIndividual.addProperty(acmOntology.obtainedBy, individual);
             }
 
             learningResources.put(id, individual);

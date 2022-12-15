@@ -25,9 +25,7 @@ public class OntologyServiceImpl implements OntologyService {
     private static final String BIBO_URI_PREFIX = "http://purl.org/ontology/bibo#";
 
     @Override
-    public AcmOntologyModel getAcmOntologyModel() throws IOException {
-        OntModel ontModel =  getAcmOntModel();
-
+    public AcmOntologyModel getAcmOntologyModel(OntModel ontModel) throws IOException {
         AcmOntologyModel model = new AcmOntologyModel();
 
         // classes
@@ -35,7 +33,7 @@ public class OntologyServiceImpl implements OntologyService {
         model.setKnowledgeArea(ontModel.getResource(ACM_URI_PREFIX + "KnowledgeArea").as(OntClass.class));
         model.setKnowledgeUnit(ontModel.getResource(ACM_URI_PREFIX + "KnowledgeUnit").as(OntClass.class));
         model.setLearningResource(ontModel.getResource(ACM_URI_PREFIX + "LearningResource").as(OntClass.class));
-        OntClass learningOutcome = (ontModel.getResource(ACM_URI_PREFIX + "LearningOutcome").as(OntClass.class));
+        model.setLearningOutcome(ontModel.getResource(ACM_URI_PREFIX + "LearningOutcome").as(OntClass.class));
 
         // data properties
         model.setNameProperty(ontModel.getProperty(ACM_URI_PREFIX + "name").as(OntProperty.class));
@@ -58,9 +56,7 @@ public class OntologyServiceImpl implements OntologyService {
     }
 
     @Override
-    public BiboOntologyModel getBiboOntologyModel() throws IOException {
-        OntModel ontModel =  getBiboOntModel();
-
+    public BiboOntologyModel getBiboOntologyModel(OntModel ontModel) throws IOException {
         BiboOntologyModel model = new BiboOntologyModel();
 
         model.setContentProprety(ontModel.getProperty(ACM_URI_PREFIX + "content").as(OntProperty.class));
