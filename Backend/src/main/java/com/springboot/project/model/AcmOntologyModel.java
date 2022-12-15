@@ -7,27 +7,27 @@ import org.apache.jena.ontology.OntProperty;
 @Data
 public class AcmOntologyModel {
 
-    OntClass course;
-    OntClass knowledgeArea;
-    OntClass knowledgeUnit;
-    OntClass learningResource;
-    OntClass learningOutcome;
+    public OntClass course;
+    public OntClass knowledgeArea;
+    public OntClass knowledgeUnit;
+    public OntClass learningResource;
+    public OntClass learningOutcome;
 
     // data properties
-    OntProperty nameProperty;
-    OntProperty descriptionProperty;
-    OntProperty estimatedContactHoursProperty;
-    OntProperty authorProperty;
-    OntProperty difficultyLevelProperty;
-    OntProperty teacherProperty;
-    OntProperty formatProperty;
-    OntProperty levelOfStudyProperty;
+    public OntProperty nameProperty;
+    public OntProperty descriptionProperty;
+    public OntProperty estimatedContactHoursProperty;
+    public OntProperty authorProperty;
+    public OntProperty difficultyLevelProperty;
+    public OntProperty teacherProperty;
+    public OntProperty formatProperty;
+    public OntProperty levelOfStudyProperty;
 
     // object properties
-    OntProperty consistsOf;
-    OntProperty includes;
-    OntProperty isTaughtUsing;
-    OntProperty obtainedBy;
-    OntProperty teaches;
+    public OntProperty consistsOf;
+    public OntProperty includes;
+    public OntProperty isTaughtUsing;
+    public OntProperty obtainedBy;
+    public OntProperty teaches;
 
 }

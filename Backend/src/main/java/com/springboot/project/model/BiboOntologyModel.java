@@ -6,9 +6,9 @@ import org.apache.jena.ontology.OntProperty;
 @Data
 public class BiboOntologyModel {
 
-    OntProperty contentProprety;
-    OntProperty sectionProperty;
-    OntProperty numberProperty;
-    OntProperty citedBy;
+    public OntProperty contentProprety;
+    public OntProperty sectionProperty;
+    public OntProperty numberProperty;
+    public OntProperty citedBy;
 
 }

@@ -8,6 +8,8 @@ public interface DataService {
 
     String uploadFile(FileUploadDTO dto) throws IOException;
 
+    String generateStarterRdf() throws IOException;
+
     String getUriLearningResource(String name);
 
     String getUriBiboDocument(String name);

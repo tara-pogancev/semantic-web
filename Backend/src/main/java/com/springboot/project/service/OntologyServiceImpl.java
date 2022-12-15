@@ -22,13 +22,11 @@ public class OntologyServiceImpl implements OntologyService {
     private static final String ACM_ONTOLOGY = "sec_ontology.owl";
     private static final String BIBO_ONTOLOGY = "bibo.owl";
     private static final String ACM_URI_PREFIX = "http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#";
-    private static final String BIBO_URI_PREFIX = "http://purl.org/ontology/bibo/";
+    private static final String BIBO_URI_PREFIX = "http://purl.org/ontology/bibo#";
 
     @Override
     public AcmOntologyModel getAcmOntologyModel() throws IOException {
-        OntModel ontModel =  ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-        ontModel.read(new FileInputStream(new ClassPathResource(ACM_ONTOLOGY).getFile()), "");
-        ontModel.setStrictMode(false);
+        OntModel ontModel =  getAcmOntModel();
 
         AcmOntologyModel model = new AcmOntologyModel();
 
@@ -61,9 +59,7 @@ public class OntologyServiceImpl implements OntologyService {
 
     @Override
     public BiboOntologyModel getBiboOntologyModel() throws IOException {
-        OntModel ontModel =  ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-        ontModel.read(new FileInputStream(new ClassPathResource(BIBO_ONTOLOGY).getFile()), "");
-        ontModel.setStrictMode(false);
+        OntModel ontModel =  getBiboOntModel();
 
         BiboOntologyModel model = new BiboOntologyModel();
 
@@ -73,6 +69,24 @@ public class OntologyServiceImpl implements OntologyService {
         model.setCitedBy(ontModel.getProperty(ACM_URI_PREFIX + "citedBy").as(OntProperty.class));
 
         return model;
+    }
+
+    @Override
+    public OntModel getAcmOntModel() throws IOException {
+        OntModel ontModel =  ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        ontModel.read(new FileInputStream(new ClassPathResource(ACM_ONTOLOGY).getFile()), "");
+        ontModel.setStrictMode(false);
+        ontModel.setNsPrefix("acm", ACM_URI_PREFIX);
+        return  ontModel;
+    }
+
+    @Override
+    public OntModel getBiboOntModel() throws IOException {
+        OntModel ontModel =  ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        ontModel.read(new FileInputStream(new ClassPathResource(BIBO_ONTOLOGY).getFile()), "");
+        ontModel.setStrictMode(false);
+        ontModel.setNsPrefix("bibo", BIBO_URI_PREFIX);
+        return ontModel;
     }
 
 }

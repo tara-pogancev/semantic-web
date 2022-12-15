@@ -20,8 +20,13 @@ public class DataController {
     private final DataService dataService;
 
     @GetMapping("/upload")
-    public ResponseEntity<?> generateRdfFile(@RequestBody FileUploadDTO dto) throws IOException {
+    public ResponseEntity<?> uploadFile(@RequestBody FileUploadDTO dto) throws IOException {
         return ResponseEntity.ok(dataService.uploadFile(dto));
+    }
+
+    @GetMapping("/generate")
+    public ResponseEntity<?> generateRdfFile() throws IOException {
+        return ResponseEntity.ok(dataService.generateStarterRdf());
     }
 
 }
