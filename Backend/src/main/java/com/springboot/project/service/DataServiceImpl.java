@@ -26,7 +26,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class DataServiceImpl implements DataService {
 
-    private static final String DATA_FILE = ".\\src\\main\\resources\\data.rdf";
+    private static final String DATA_FILE = "src/main/resources/data.rdf";
     private static final String ACM_INDIVIDUALS_FEED_FILE = "sec_ontology_individuals.xlsx";
     private static final String ACM_URI_PREFIX = "http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#";
     private static final String BIBO_URI_PREFIX = "http://purl.org/ontology/bibo/";
@@ -38,34 +38,32 @@ public class DataServiceImpl implements DataService {
 
     @Override
     public String uploadFile(FileUploadDTO dto) throws IOException {
-        OntModel acmOm = ontologyService.getAcmOntModel();
-        OntModel biboOm = ontologyService.getBiboOntModel();
+        OntModel om = ontologyService.getStarterModel();
+        om.read(DATA_FILE);
 
-        AcmOntologyModel acmOntologyModel = ontologyService.getAcmOntologyModel(acmOm);
-        BiboOntologyModel biboOntologyModel = ontologyService.getBiboOntologyModel(biboOm);
+        AcmOntologyModel acmOntologyModel = ontologyService.getAcmOntologyModel(ontologyService.getAcmOntModel());
+        BiboOntologyModel biboOntologyModel = ontologyService.getBiboOntologyModel(ontologyService.getBiboOntModel());
 
         Individual fileIndividual = acmOntologyModel.learningResource.createIndividual(getUriLearningResource(dto.name));
         fileIndividual.addLiteral(acmOntologyModel.difficultyLevelProperty, dto.difficultyLevel.toString())
                 .addLiteral(acmOntologyModel.formatProperty, dto.format)
                 .addLiteral(acmOntologyModel.nameProperty, dto.name)
                 .addLiteral(acmOntologyModel.authorProperty, dto.author);
-        acmOm.createIndividual(fileIndividual);
+        om.createIndividual(fileIndividual);
 
         for (BiboReferencesDTO biboReference : dto.cites) {
-            String id = getUriBiboDocument(biboReference.content);
-            Individual referenceIndividual = biboOntologyModel.document.createIndividual(id);
-            referenceIndividual.addLiteral(biboOntologyModel.contentProprety, biboReference.content)
-                    .addLiteral(biboOntologyModel.sectionProperty, biboReference.section.toString())
-                    .addLiteral(biboOntologyModel.numberProperty, biboReference.number.toString())
-                    .addLiteral(biboOntologyModel.getCitedBy(), getUriLearningResource(dto.name));
-
-            biboOm.createIndividual(referenceIndividual);
+//            String id = getUriBiboDocument(biboReference.content);
+//            Individual referenceIndividual = biboOntologyModel.document.createIndividual(id);
+//            referenceIndividual.addLiteral(biboOntologyModel.contentProprety, biboReference.content)
+//                    .addLiteral(biboOntologyModel.sectionProperty, biboReference.section.toString())
+//                    .addLiteral(biboOntologyModel.numberProperty, biboReference.number.toString())
+//                    .addLiteral(biboOntologyModel.getCitedBy(), getUriLearningResource(dto.name));
+//
+//            om.createIndividual(referenceIndividual);
         }
 
         FileWriter out = new FileWriter(DATA_FILE, false);
-        acmOm.write(out, "RDF/XML");
-        biboOm.write(out, "RDF/XML");
-        out.write("\n\n");
+        om.write(out, "RDF/XML");
         out.close();
 
         return OK_UPLOAD_FILE;
@@ -78,7 +76,7 @@ public class DataServiceImpl implements DataService {
      */
     @Override
     public String generateStarterRdf() throws IOException {
-        OntModel om = ontologyService.getAcmOntModel();
+        OntModel om = ontologyService.getStarterModel();
         AcmOntologyModel acmOntology = ontologyService.getAcmOntologyModel(om);
 
         FileInputStream excelFile = new FileInputStream(new ClassPathResource(ACM_INDIVIDUALS_FEED_FILE).getFile());
@@ -203,7 +201,6 @@ public class DataServiceImpl implements DataService {
 
         FileWriter out = new FileWriter(DATA_FILE, false);
         om.write(out, "RDF/XML");
-        out.write("\n\n");
         out.close();
 
         return OK_GENERATE_RDF;

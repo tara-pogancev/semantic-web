@@ -16,4 +16,6 @@ public interface OntologyService {
 
     OntModel getBiboOntModel() throws IOException;
 
+    OntModel getStarterModel();
+
 }
