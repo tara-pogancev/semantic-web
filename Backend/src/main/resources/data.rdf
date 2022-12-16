@@ -5,316 +5,320 @@
     xmlns:bibo="http://purl.org/ontology/bibo/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <acm:DS-6-5/>
-  <acm:OS-1-1/>
-  <acm:IM-3-2/>
-  <acm:OS-4-2/>
-  <acm:GV-1-1/>
-  <acm:PL-1-3/>
-  <acm:AR-4-1/>
-  <acm:GV-1-5/>
-  <acm:CYB-1-9/>
-  <acm:SF-3/>
+  <acm:DS-4-7/>
+  <acm:DS-6-3/>
+  <acm:CYB-1-5/>
+  <acm:SF-3-3/>
+  <acm:CN-1-3/>
+  <acm:GV-1/>
+  <acm:SF-3-1/>
+  <acm:OS-3-1/>
+  <acm:IM-3-3/>
+  <acm:SE-4-1/>
+  <acm:SF-1-2/>
+  <acm:SE/>
+  <acm:PL-3-2/>
+  <acm:SE-1-3/>
+  <acm:AR-3-2/>
+  <acm:OS-1/>
+  <acm:CYB-1/>
+  <acm:DS-4/>
+  <acm:CYB-4-2/>
+  <acm:IM-2-4/>
+  <acm:DS-5-8/>
   <acm:AL-4-2/>
   <acm:NC-2-5/>
-  <acm:SDF-1-2/>
-  <acm:HCI-1/>
-  <acm:CYB-1-10/>
-  <acm:DS-6-3/>
-  <acm:CYB-2/>
-  <acm:SF-3-2/>
-  <acm:AR/>
-  <acm:SP-3-1/>
-  <acm:IM-2-1/>
-  <acm:DS-3-5/>
-  <acm:GV-1-4/>
-  <acm:DS-5/>
-  <acm:PD-3/>
-  <acm:SP-1-4/>
-  <acm:HCI-1-3/>
-  <acm:DS-5-5/>
-  <acm:IM-1-4/>
-  <acm:IM-2/>
-  <acm:DS-5-6/>
-  <acm:SE-6/>
-  <acm:HCI-2-1/>
-  <acm:PD/>
-  <acm:SP-1-2/>
-  <acm:SP-4-2/>
-  <acm:SP-2-2/>
-  <acm:SDF-4-3/>
-  <acm:HCI/>
-  <acm:SP-5-2/>
-  <acm:AL-3-4/>
-  <acm:AR-4/>
-  <acm:DS-1-3/>
-  <acm:SE-5/>
-  <acm:SP-6-1/>
-  <acm:CYB-6/>
-  <acm:AL-2-2/>
-  <acm:IM-2-3/>
-  <acm:PL-1-2/>
-  <acm:DS-1-1/>
-  <acm:SE-1/>
-  <acm:SDF-4-6/>
-  <acm:SP-2-1/>
-  <acm:AR-3-4/>
-  <acm:SP-5-4/>
-  <acm:SP-3/>
-  <acm:SDF-4-4/>
-  <acm:PL-2-1/>
-  <acm:CYB-1-6/>
-  <acm:IM-3-3/>
-  <acm:GV-1-2/>
-  <acm:SF-1-2/>
-  <acm:OS-5-2/>
-  <acm:CYB-2-2/>
-  <acm:IM-1-5/>
-  <acm:CYB-3-2/>
-  <acm:OS/>
-  <acm:NC-1-3/>
-  <acm:DS-5-1/>
-  <acm:SP-6-2/>
-  <acm:HCI-2-3/>
-  <acm:GV-1/>
-  <acm:OS-4/>
-  <acm:IM-3-1/>
-  <acm:IM-1-3/>
-  <acm:DS-2-1/>
-  <acm:PL-4-2/>
-  <acm:AR-3-2/>
-  <acm:SP-7-1/>
-  <acm:OS-6/>
-  <acm:CYB-1-4/>
-  <acm:OS-1/>
-  <acm:NC-2/>
-  <acm:PD-1-1/>
-  <acm:HCI-2-2/>
-  <acm:DS-5-8/>
-  <acm:AL-1-2/>
-  <acm:AR-4-2/>
-  <acm:SF-1-3/>
-  <acm:PD-1/>
-  <acm:SP-5/>
-  <acm:DS-5-3/>
-  <acm:SE-4-1/>
-  <acm:SP-4-1/>
-  <acm:OS-2-1/>
-  <acm:SP-7/>
-  <acm:DS-6/>
-  <acm:SDF-3-2/>
-  <acm:SF-3-1/>
-  <acm:CYB-5-1/>
-  <acm:CYB-1-7/>
-  <acm:CYB-4/>
-  <acm:OS-1-3/>
-  <acm:PL-2/>
-  <acm:CYB-3-1/>
-  <acm:DS-3-4/>
-  <acm:DS-5-4/>
-  <acm:NC-1-2/>
-  <acm:AL-1/>
-  <acm:SDF/>
-  <acm:CYB-4-2/>
-  <acm:SP-4/>
-  <acm:OS-3-1/>
-  <acm:R-4/>
-  <acm:CYB-5-3/>
-  <acm:CYB-3-3/>
-  <acm:SDF-3-1/>
-  <acm:DS-5-7/>
-  <acm:SE-5-1/>
-  <acm:SDF-4-1/>
-  <acm:SDF-4-5/>
-  <acm:AR-2-2/>
-  <acm:PL-3-2/>
-  <acm:CYB-3-4/>
-  <acm:AL-4/>
-  <acm:NC-2-2/>
-  <acm:DS-2/>
-  <acm:DS-2-2/>
-  <acm:IM-2-5/>
-  <acm:OS-6-1/>
-  <acm:CN-1-1/>
-  <acm:DS-4-4/>
-  <acm:AL-3-7/>
-  <acm:OS-2/>
-  <acm:SF-2-3/>
-  <acm:IM-2-4/>
-  <acm:DS-6-1/>
-  <acm:AR-2-4/>
-  <acm:HCI-1-2/>
-  <acm:DS-4-3/>
-  <acm:SE-7-2/>
-  <acm:DS-3-3/>
-  <acm:C-4/>
-  <acm:PL-1/>
-  <acm:IM-1/>
-  <acm:PL-4/>
-  <acm:IM-3/>
-  <acm:CYB-2-4/>
-  <acm:AL-2-1/>
-  <acm:AL-2/>
-  <acm:SP-7-3/>
-  <acm:NC-2-4/>
-  <acm:IM/>
-  <acm:PD-2/>
-  <acm:SP-8/>
-  <acm:DS-2-4/>
-  <acm:CYB-1-5/>
-  <acm:IM-1-1/>
-  <acm:CYB-2-3/>
-  <acm:PD-2-1/>
-  <acm:DS/>
-  <acm:AL-3-6/>
-  <acm:DS-5-2/>
-  <acm:AR-2-3/>
-  <acm:C-5/>
-  <acm:PL-3/>
-  <acm:OS-2-3/>
-  <acm:HCI-2/>
-  <acm:SP-6-4/>
-  <acm:SF-2/>
+  <acm:SDF-2-5/>
+  <acm:SDF-2-3/>
   <acm:SP-6/>
-  <acm:SDF-1/>
+  <acm:CYB-5-2/>
+  <acm:AR-3-3/>
+  <acm:IM-1-2/>
+  <acm:DS-3-5/>
   <acm:AL-4-1/>
-  <acm:OS-6-2/>
-  <acm:DS-6-2/>
-  <acm:SP/>
+  <acm:DS-5-1/>
+  <acm:CYB-1-10/>
   <acm:AL-1-1/>
-  <acm:CYB-1-8/>
-  <acm:PL-4-1/>
-  <acm:CN-1/>
+  <acm:CN/>
+  <acm:CYB-3-1/>
+  <acm:AR-4-1/>
+  <acm:DS-3-2/>
+  <acm:IM-2-1/>
+  <acm:AR-3/>
+  <acm:DS-6/>
+  <acm:SDF-3/>
+  <acm:C-2/>
+  <acm:GV-1-5/>
+  <acm:PL-2-2/>
+  <acm:OS-5/>
+  <acm:PL-1-1/>
+  <acm:SP-3/>
+  <acm:AL-1-3/>
+  <acm:CYB-2-3/>
+  <acm:AL-3-8/>
+  <acm:SE-2-1/>
+  <acm:SDF-4-3/>
+  <acm:GV-1-1/>
+  <acm:DS-6-5/>
+  <acm:SE-6/>
+  <acm:DS-5/>
+  <acm:AR-3-1/>
+  <acm:SDF-4-7/>
+  <acm:AR-2-3/>
+  <acm:SDF-4-4/>
+  <acm:NC-1-2/>
+  <acm:OS-2/>
+  <acm:DS-1/>
+  <acm:C-3/>
+  <acm:SE-1-1/>
+  <acm:SP-2-1/>
+  <acm:DS-5-2/>
+  <acm:SP-7-1/>
+  <acm:AL-2/>
+  <acm:SDF-2/>
+  <acm:IM-2/>
+  <acm:SE-4/>
+  <acm:PD-1-2/>
+  <acm:SP-5-3/>
+  <acm:SE-1-2/>
+  <acm:DS-2-6/>
+  <acm:HCI-2-2/>
+  <acm:HCI-2/>
+  <acm:NC-1-1/>
+  <acm:CYB-5-4/>
+  <acm:DS-5-5/>
+  <acm:SP-7-3/>
+  <acm:CYB-1-6/>
+  <acm:OS-1-2/>
+  <acm:SP-7/>
+  <acm:SP-2/>
+  <acm:SF-3-2/>
+  <acm:HCI-1-2/>
+  <acm:DS-3-3/>
+  <acm:NC-2-4/>
+  <acm:OS/>
+  <acm:PL-3/>
+  <acm:SDF-1-3/>
+  <acm:IM-3-2/>
+  <acm:CYB-5-1/>
+  <acm:AR-4-2/>
+  <acm:SP-5-1/>
+  <acm:SE-5/>
+  <acm:DS-6-2/>
+  <acm:NC-1/>
+  <acm:DS-1-1/>
+  <acm:NC-2-2/>
+  <acm:PD-2/>
+  <acm:SP-3-3/>
+  <acm:HCI-1-1/>
+  <acm:SDF-2-2/>
+  <acm:SF-1-1/>
+  <acm:OS-6-1/>
+  <acm:PD/>
+  <acm:SF-2-1/>
+  <acm:DS-2-1/>
+  <acm:SP-1-3/>
+  <acm:NC-2-1/>
+  <acm:CYB-4/>
+  <acm:SE-2/>
+  <acm:OS-6-2/>
+  <acm:OS-5-1/>
+  <acm:R-3/>
+  <acm:PL-3-1/>
+  <acm:SP-6-1/>
+  <acm:CYB-4-1/>
+  <acm:CYB-1-7/>
+  <acm:OS-2-1/>
+  <acm:OS-5-2/>
+  <acm:DS-1-2/>
+  <acm:IM-3-1/>
+  <bibo:nesto-o-algebri/>
+  <acm:SDF-4-1/>
+  <acm:AL-3-5/>
+  <acm:R-2/>
+  <acm:SDF/>
+  <acm:OS-6/>
+  <acm:AL-4-3/>
+  <acm:DS-4-2/>
+  <acm:OS-4-1/>
+  <acm:CYB-3-2/>
+  <acm:IM-2-5/>
+  <acm:analiza-podataka-1/>
+  <acm:SP-5/>
+  <acm:CYB-6/>
+  <acm:SE-7-3/>
+  <acm:IM-2-3/>
+  <acm:IM-1-5/>
+  <bibo:nesto-o-analizi-da/>
+  <acm:SE-3-1/>
+  <acm:DS-5-4/>
+  <acm:SE-5-3/>
+  <acm:SE-7-2/>
+  <acm:OS-1-3/>
+  <acm:SP-3-2/>
+  <acm:AL-3-7/>
+  <acm:SDF-1-2/>
+  <acm:CYB-1-1/>
+  <acm:OS-4/>
+  <acm:NC-1-3/>
+  <acm:GV-1-4/>
+  <acm:CYB-2-2/>
+  <acm:DS-2-3/>
+  <acm:CN-1-2/>
+  <acm:HCI-1-3/>
+  <acm:DS-4-6/>
+  <acm:DS-5-7/>
+  <acm:NC-2/>
+  <acm:SP-1-1/>
+  <acm:DS-5-3/>
+  <acm:IM-2-2/>
+  <acm:SP-1-4/>
+  <acm:SDF-1/>
+  <acm:AR-1-1/>
+  <acm:SE-7/>
+  <acm:CYB-2-1/>
+  <acm:DS-2-5/>
+  <acm:AL-1-4/>
+  <acm:PL-1-4/>
+  <acm:SP/>
+  <acm:AR/>
+  <acm:AR-3-4/>
+  <acm:PL-1-2/>
+  <acm:SF-2/>
+  <acm:SP-6-2/>
+  <acm:CYB-5-3/>
+  <acm:DS-2-4/>
+  <acm:C-4/>
+  <acm:PD-1/>
+  <acm:OS-1-1/>
+  <acm:SE-5-2/>
+  <acm:SP-4-1/>
+  <acm:SF-1-3/>
+  <acm:IM-1/>
+  <acm:AL-1/>
+  <acm:SP-5-2/>
+  <acm:SDF-3-1/>
+  <acm:DS-4-3/>
+  <acm:GV-1-2/>
+  <acm:CYB-1-4/>
+  <acm:SP-4-2/>
+  <acm:SE-5-1/>
+  <acm:CYB-2/>
+  <acm:DS-3-4/>
+  <acm:CYB-2-4/>
+  <acm:DS-1-3/>
+  <acm:AL-3-4/>
+  <acm:SE-6-1/>
+  <acm:DS-4-5/>
+  <acm:PD-1-3/>
+  <acm:DS-5-6/>
+  <acm:SP-2-2/>
+  <acm:DS-4-4/>
+  <acm:AL-2-2/>
+  <acm:PD-3-1/>
+  <acm:C-5/>
+  <acm:AR-2-1/>
+  <acm:SE-7-1/>
+  <acm:AL-3/>
+  <acm:DS-2-2/>
+  <acm:CYB-6-1/>
+  <acm:PL-4/>
+  <acm:AR-2/>
+  <acm:AL-3-2/>
+  <acm:AR-2-4/>
+  <acm:SP-7-2/>
+  <acm:OS-2-2/>
   <acm:SDF-4-8/>
   <acm:SDF-2-4/>
-  <acm:NC/>
-  <acm:PL-1-4/>
-  <acm:CYB-5/>
+  <acm:OS-2-3/>
+  <acm:CYB-3-3/>
+  <acm:AR-2-2/>
+  <acm:SF-2-3/>
+  <acm:SP-1-2/>
   <acm:SP-1/>
-  <acm:AL-3-2/>
-  <acm:DS-1/>
-  <acm:AL-3-1/>
-  <acm:NC-2-3/>
-  <acm:OS-3/>
-  <acm:SP-5-3/>
-  <acm:AR-2-1/>
-  <acm:DS-4-2/>
-  <acm:NC-1/>
-  <acm:DS-4-5/>
-  <acm:GV/>
-  <acm:AR-3-1/>
-  <acm:GV-1-3/>
-  <acm:CN-1-2/>
-  <acm:DS-1-2/>
-  <acm:SE-5-2/>
-  <acm:AL-1-4/>
-  <acm:C-2/>
-  <acm:SE-6-1/>
-  <acm:CYB-1/>
-  <acm:OS-5/>
-  <acm:AL/>
-  <acm:SE-5-3/>
-  <acm:SF-1/>
-  <acm:AL-4-3/>
-  <acm:CYB-5-2/>
-  <acm:SDF-4-2/>
-  <acm:AR-3/>
-  <acm:PD-1-2/>
-  <acm:CYB/>
-  <acm:SE-1-1/>
-  <acm:SP-2/>
-  <acm:PL-2-2/>
-  <acm:OS-1-2/>
-  <acm:SE-2-2/>
-  <acm:SE-4/>
-  <acm:PD-3-1/>
-  <acm:SP-1-3/>
-  <acm:DS-6-4/>
-  <acm:PD-1-3/>
-  <acm:IM-2-2/>
-  <acm:PL-3-1/>
-  <acm:AL-3/>
-  <acm:CYB-1-2/>
-  <acm:SF-1-1/>
-  <acm:DS-3-1/>
-  <acm:C-3/>
-  <acm:CN/>
-  <acm:SE-1-3/>
-  <acm:R-1/>
-  <acm:DS-4-6/>
-  <acm:DS-2-5/>
-  <acm:SE-1-2/>
-  <acm:R-2/>
-  <acm:SP-3-3/>
-  <acm:OS-2-2/>
-  <acm:SE-7/>
-  <acm:AL-3-3/>
-  <acm:DS-4-1/>
-  <acm:SE-2-1/>
-  <acm:SP-3-2/>
-  <acm:AR-2/>
-  <acm:HCI-1-1/>
-  <acm:AR-1-1/>
-  <acm:SE/>
-  <acm:SE-7-1/>
-  <acm:IM-1-2/>
-  <acm:SP-5-1/>
-  <acm:SDF-2-6/>
-  <acm:CYB-2-1/>
-  <acm:SDF-2/>
-  <acm:AR-1/>
-  <acm:PL/>
-  <acm:SE-2/>
-  <acm:C-1/>
-  <acm:SDF-2-3/>
-  <acm:SDF-4-7/>
-  <acm:SF-2-1/>
-  <acm:SDF-2-5/>
+  <acm:CYB-5/>
   <acm:SF-2-2/>
-  <acm:SDF-3/>
-  <acm:OS-5-1/>
-  <acm:DS-3/>
-  <acm:SE-3/>
-  <acm:SE-3-1/>
-  <acm:DS-3-2/>
-  <acm:SDF-1-3/>
-  <acm:NC-1-1/>
-  <acm:PL-1-1/>
-  <acm:SP-7-2/>
-  <acm:SDF-2-2/>
-  <acm:CYB-5-4/>
-  <acm:CYB-1-3/>
-  <acm:AL-3-8/>
-  <acm:DS-2-3/>
-  <acm:CYB-6-1/>
-  <acm:CYB-1-1/>
-  <acm:DS-2-6/>
-  <acm:CYB-3/>
-  <acm:SDF-1-1/>
-  <acm:DS-4/>
-  <acm:NC-2-1/>
-  <acm:SP-1-1/>
-  <acm:OS-4-1/>
-  <acm:DS-4-7/>
-  <acm:SE-7-3/>
-  <acm:SP-6-3/>
-  <acm:AL-1-3/>
-  <acm:AR-3-3/>
-  <acm:SDF-2-1/>
-  <acm:SDF-4/>
-  <acm:R-3/>
-  <acm:CYB-4-1/>
-  <acm:CN-1-3/>
-  <acm:AL-3-5/>
+  <acm:DS/>
+  <acm:NC-2-3/>
+  <acm:CYB-1-2/>
+  <acm:IM-1-3/>
+  <acm:OS-4-2/>
+  <acm:DS-3-1/>
+  <acm:CYB-1-8/>
   <acm:SF/>
-  <acm:SF-3-3/>
+  <acm:AL-1-2/>
+  <acm:SDF-4/>
+  <acm:PL-4-1/>
+  <acm:GV-1-3/>
+  <acm:SP-6-4/>
+  <acm:CN-1-1/>
+  <acm:PL-1/>
+  <acm:SDF-4-6/>
+  <acm:DS-3/>
+  <acm:SE-2-2/>
+  <acm:CN-1/>
+  <acm:HCI/>
+  <acm:HCI-1/>
+  <acm:IM-1-1/>
+  <acm:DS-6-1/>
+  <acm:PD-2-1/>
+  <acm:SDF-2-6/>
+  <acm:HCI-2-3/>
+  <acm:SDF-4-2/>
+  <acm:R-4/>
+  <acm:OS-3/>
+  <acm:R-1/>
+  <acm:SDF-2-1/>
+  <acm:SP-4/>
+  <acm:SDF-1-1/>
+  <acm:PL-2-1/>
+  <acm:AL-4/>
+  <acm:AR-4/>
+  <acm:AL-3-3/>
+  <acm:IM-1-4/>
+  <acm:AL-2-1/>
+  <acm:AL/>
+  <acm:CYB-1-3/>
+  <acm:SDF-4-5/>
+  <acm:SF-1/>
+  <acm:SP-8/>
+  <acm:CYB-1-9/>
+  <acm:SP-5-4/>
+  <acm:CYB-3-4/>
+  <acm:SE-1/>
+  <acm:AL-3-6/>
+  <acm:PL-4-2/>
+  <acm:C-1/>
+  <acm:IM-3/>
+  <acm:AL-3-1/>
+  <acm:DS-2/>
+  <acm:NC/>
+  <acm:HCI-2-1/>
+  <acm:DS-6-4/>
+  <acm:IM/>
+  <acm:PD-1-1/>
+  <acm:PL/>
+  <acm:CYB-3/>
+  <acm:SE-3/>
+  <acm:GV/>
+  <acm:PL-2/>
+  <acm:SP-6-3/>
+  <acm:SP-3-1/>
+  <acm:AR-1/>
+  <acm:DS-4-1/>
+  <acm:PL-1-3/>
+  <acm:SDF-3-2/>
+  <acm:PD-3/>
+  <acm:CYB/>
+  <acm:SF-3/>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2-2">
     <acm:description>Implement a program using methods of layering</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-2">
+    <acm:name>Operating System Principles</acm:name>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-2-3">
-        <acm:description>Manipulate a device list or driver I/O queue</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-2-1">
+        <acm:description>Diagram the interaction of an Application Programming Interface (API) with an operating system</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
@@ -323,11 +327,10 @@
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-2-1">
-        <acm:description>Diagram the interaction of an Application Programming Interface (API) with an operating system</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-2-3">
+        <acm:description>Manipulate a device list or driver I/O queue</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Operating System Principles</acm:name>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1-2">
     <acm:description>Use the techniques of decomposition to modularize a program</acm:description>
@@ -360,49 +363,15 @@
     <acm:description>Describe how computing systems are constructed of layers upon layers</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC">
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-5">
-            <acm:description>Explain the advantages and disadvantages of using virtualized infrastructure in Cloud computing</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-4">
-            <acm:description>Illustrate secure connectivity among networked applications</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-3">
-            <acm:description>Describe security concerns in designing applications for use over wireless networks</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-2">
-            <acm:description>Implement a simple distributed network application</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-1">
-            <acm:obtainedBy>
-              <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4">
-                <acm:format>csv</acm:format>
-                <acm:description rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-                >2</acm:description>
-                <acm:author>Pera Peric</acm:author>
-              </acm:LearningResource>
-            </acm:obtainedBy>
-            <acm:description>Categorize the principles used for naming schemes and resource location</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Networked Applications</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
+    <acm:name>Networking and Communications</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >5</acm:estimatedContactHours>
     <acm:consistsOf>
       <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-1">
+        <acm:name>Introduction</acm:name>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-1-3">
-            <acm:description>Diagram the layers of the OSI model, including associated protocols</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-1-1">
+            <acm:description>Diagram the basic structure of the Internet</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
@@ -411,97 +380,125 @@
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-1-1">
-            <acm:description>Diagram the basic structure of the Internet</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-1-3">
+            <acm:description>Diagram the layers of the OSI model, including associated protocols</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
-        <acm:name>Introduction</acm:name>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >5</acm:estimatedContactHours>
-    <acm:name>Networking and Communications</acm:name>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2">
+        <acm:name>Networked Applications</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-1">
+            <acm:description>Categorize the principles used for naming schemes and resource location</acm:description>
+            <acm:obtainedBy>
+              <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4">
+                <acm:author>Pera Peric</acm:author>
+                <acm:description rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >2</acm:description>
+                <acm:format>csv</acm:format>
+              </acm:LearningResource>
+            </acm:obtainedBy>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-2">
+            <acm:description>Implement a simple distributed network application</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-3">
+            <acm:description>Describe security concerns in designing applications for use over wireless networks</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-4">
+            <acm:description>Illustrate secure connectivity among networked applications</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-5">
+            <acm:description>Explain the advantages and disadvantages of using virtualized infrastructure in Cloud computing</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
   </acm:KnowledgeArea>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-1">
-    <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-1-3">
-        <acm:description>Illustrate potential threats to operating systems and appropriate security measures</acm:description>
-      </acm:LearningOutcome>
-    </acm:includes>
+    <acm:name>Overview of Operating Systems</acm:name>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-1-1"/>
     <acm:includes>
       <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-1-2">
         <acm:description>Compare prevailing types of operating systems</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-1-1"/>
-    <acm:name>Overview of Operating Systems</acm:name>
+    <acm:includes>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-1-3">
+        <acm:description>Illustrate potential threats to operating systems and appropriate security measures</acm:description>
+      </acm:LearningOutcome>
+    </acm:includes>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-2">
     <acm:description>Differentiate between dependent and independent events</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CN">
+    <acm:name>Computational Science</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1</acm:estimatedContactHours>
     <acm:consistsOf>
       <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CN-1">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CN-1-3">
-            <acm:obtainedBy>
-              <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1">
-                <acm:format>wav</acm:format>
-                <acm:description rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-                >1</acm:description>
-                <acm:author>Pera Peric</acm:author>
-              </acm:LearningResource>
-            </acm:obtainedBy>
-            <acm:description>Exemplify different types of simulations</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CN-1-2">
-            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
-            <acm:description>Illustrate the relationship between modeling and simulation</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
+        <acm:name>Introduction to Modeling and Simulation</acm:name>
         <acm:includes>
           <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CN-1-1">
             <acm:description>Illustrate the concepts of modeling and abstraction with respect to problem solving</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
-        <acm:name>Introduction to Modeling and Simulation</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CN-1-2">
+            <acm:description>Illustrate the relationship between modeling and simulation</acm:description>
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CN-1-3">
+            <acm:description>Exemplify different types of simulations</acm:description>
+            <acm:obtainedBy>
+              <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1">
+                <acm:author>Pera Peric</acm:author>
+                <acm:description rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >1</acm:description>
+                <acm:format>wav</acm:format>
+              </acm:LearningResource>
+            </acm:obtainedBy>
+          </acm:LearningOutcome>
+        </acm:includes>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >1</acm:estimatedContactHours>
-    <acm:name>Computational Science</acm:name>
   </acm:KnowledgeArea>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-5-5">
-    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
+    <acm:description>Implement graph algorithms</acm:description>
     <acm:obtainedBy>
       <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3">
-        <acm:format>csv</acm:format>
+        <acm:author>Jelena Jelic</acm:author>
         <acm:description rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >3</acm:description>
-        <acm:author>Jelena Jelic</acm:author>
+        <acm:format>csv</acm:format>
       </acm:LearningResource>
     </acm:obtainedBy>
-    <acm:description>Implement graph algorithms</acm:description>
+    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV">
+    <acm:name>Graphics and Visualization</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >2</acm:estimatedContactHours>
     <acm:consistsOf>
       <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1">
+        <acm:name>Fundamental Concepts</acm:name>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-5">
-            <acm:description>Perform information hiding through steganography in images, messages, videos, or other media files</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-4">
-            <acm:description>Analyze image types according to output choices</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-3">
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-1">
+            <acm:description>Compare transformation and changes in dimension and coordinate systems for 2D and 3D design</acm:description>
             <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
-            <acm:description>Illustrate color models and their use in computer graphics</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
@@ -510,17 +507,23 @@
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-1">
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-3">
+            <acm:description>Illustrate color models and their use in computer graphics</acm:description>
             <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
-            <acm:description>Compare transformation and changes in dimension and coordinate systems for 2D and 3D design</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
-        <acm:name>Fundamental Concepts</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-4">
+            <acm:description>Analyze image types according to output choices</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-5">
+            <acm:description>Perform information hiding through steganography in images, messages, videos, or other media files</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >2</acm:estimatedContactHours>
-    <acm:name>Graphics and Visualization</acm:name>
   </acm:KnowledgeArea>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-3-5">
     <acm:description>Explain the runtime and memory efficiency of principal sorting, searching, and hashing functions</acm:description>
@@ -552,6 +555,12 @@
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1-1">
     <acm:description>Design an algorithm in a programming language to solve a simple problem</acm:description>
   </acm:LearningOutcome>
+  <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#analiza-podataka-1">
+    <acm:author>Tara Pogancev</acm:author>
+    <acm:name>Analiza podataka 1</acm:name>
+    <acm:format>PDF</acm:format>
+    <acm:description>1</acm:description>
+  </acm:LearningResource>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-5-3">
     <acm:description>Solve a variety of realworld problems in computer science using appropriate forms of graphs and trees, such as representing a network topology or the organization of a hierarchical file system</acm:description>
   </acm:LearningOutcome>
@@ -568,31 +577,15 @@
     <acm:description>Illustrate the basic building blocks of computers and their role in the historical development of computer architecture</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD">
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-3">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-3-1">
-            <acm:description>Investigate the challenges and concerns related to security and privacy in Cloud computing</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Cloud Computing</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-2">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-2-1">
-            <acm:description>Implement mutual exclusion in order to avoid race conditions that could cause security vulnerabilities</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Communication and Coordination</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
+    <acm:name>Parallel and Distributed Computing</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >3</acm:estimatedContactHours>
     <acm:consistsOf>
       <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-1">
+        <acm:name>Parallelism Fundamentals</acm:name>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-1-3">
-            <acm:description>Contrast low-level data races with higher level races</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-1-1">
+            <acm:description>Analyze the goals of parallelism and concurrency</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
@@ -601,21 +594,38 @@
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-1-1">
-            <acm:description>Analyze the goals of parallelism and concurrency</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-1-3">
+            <acm:description>Contrast low-level data races with higher level races</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
-        <acm:name>Parallelism Fundamentals</acm:name>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >3</acm:estimatedContactHours>
-    <acm:name>Parallel and Distributed Computing</acm:name>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-2">
+        <acm:name>Communication and Coordination</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-2-1">
+            <acm:description>Implement mutual exclusion in order to avoid race conditions that could cause security vulnerabilities</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-3">
+        <acm:name>Cloud Computing</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD-3-1">
+            <acm:description>Investigate the challenges and concerns related to security and privacy in Cloud computing</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
   </acm:KnowledgeArea>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-1">
+    <acm:name>Software Processes</acm:name>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-1-3">
-        <acm:description>Diagram the phases of the secure software development lifecycle (SecSDLC)</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-1-1">
+        <acm:description>Diagram how software interacts with various systems, including information management, embedded, process control, and communications systems</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
@@ -624,11 +634,10 @@
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-1-1">
-        <acm:description>Diagram how software interacts with various systems, including information management, embedded, process control, and communications systems</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-1-3">
+        <acm:description>Diagram the phases of the secure software development lifecycle (SecSDLC)</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Software Processes</acm:name>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-2">
     <acm:description>Implement a simple usability test for an existing software application</acm:description>
@@ -640,122 +649,19 @@
     <acm:description>Explain complexity in the ideal and in the worst-case scenario for both implementations</acm:description>
   </acm:LearningOutcome>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-5">
-    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
-    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
     <acm:description>Apply the tools of probability to solve problems</acm:description>
+    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
+    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
   </acm:LearningOutcome>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-4">
     <acm:description>Create code in a programming language that includes primitive data types, references, variables, expressions, assignments, I/O, control structures, and functions</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB">
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-6">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-6-1">
-            <acm:description>Explain browser and web security model concepts, including same-origin policy, web sessions, and secure communication channels</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Web Security</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5-4">
-            <acm:description>Contrast symmetric and asymmetric encryption in relation to securing electronic communications and transactions</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5-3">
-            <acm:description>Apply cryptographic hash functions for authentication and data integrity</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5-2">
-            <acm:description>Use a variety of ciphers to encrypt plaintext into ciphertext</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5-1">
-            <acm:description>Describe key terms in cryptology, including cryptography, cryptanalysis, cipher, cryptographic algorithm, and public key infrastructure</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Cryptography</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-4">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-4-2">
-            <acm:description>Illustrate the key principles of social engineering, including membership and trust</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-4-1">
-            <acm:description>Examine likely attack types against standalone and networked systems</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Threats and Attacks</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3-4">
-            <acm:description>Examine the need to update software to fix security vulnerabilities</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3-3">
-            <acm:obtainedBy>
-              <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-2">
-                <acm:format>xsd</acm:format>
-                <acm:description rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-                >4</acm:description>
-                <acm:author>Jova Jovic</acm:author>
-              </acm:LearningResource>
-            </acm:obtainedBy>
-            <acm:description>Implement programs that properly handle exceptions and error conditions</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3-2">
-            <acm:description>Explain the tradeoffs of developing a program in a typesafe language</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3-1">
-            <acm:description>Construct input validation and data sanitization in applications, considering adversarial control of the input channel</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Defensive Programming</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2-4">
-            <acm:description>Analyze the tradeoffs associated with designing security into a product</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2-3">
-            <acm:description>Discuss the benefits and limitations of designing multiple layers of defenses</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2-2">
-            <acm:description>Illustrate the security implications of relying on open design vs the secrecy of design</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2-1">
-            <acm:description>Use the principles of secure design</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Principles of Secure Design</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
+    <acm:name>Cybersecurity
+(Information Assurance and Security, IAS, in
+CS2013)</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >20</acm:estimatedContactHours>
     <acm:consistsOf>
       <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-1">
         <acm:includes>
@@ -765,8 +671,8 @@
         </acm:includes>
         <acm:includes>
           <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-1-1">
-            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
             <acm:description>Describe security as a continuous process of tradeoffs, balancing between protection mechanisms and availability</acm:description>
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
@@ -796,13 +702,13 @@
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-1-8">
-            <acm:description>Apply security principles and practices in a dynamic environment</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-1-5">
+            <acm:description>Explain the concepts of trust and trustworthiness related to cybersecurity</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-1-5">
-            <acm:description>Explain the concepts of trust and trustworthiness related to cybersecurity</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-1-8">
+            <acm:description>Apply security principles and practices in a dynamic environment</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
@@ -812,18 +718,121 @@
         </acm:includes>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >20</acm:estimatedContactHours>
-    <acm:name>Cybersecurity
-(Information Assurance and Security, IAS, in
-CS2013)</acm:name>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2">
+        <acm:name>Principles of Secure Design</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2-1">
+            <acm:description>Use the principles of secure design</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2-2">
+            <acm:description>Illustrate the security implications of relying on open design vs the secrecy of design</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2-3">
+            <acm:description>Discuss the benefits and limitations of designing multiple layers of defenses</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-2-4">
+            <acm:description>Analyze the tradeoffs associated with designing security into a product</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3">
+        <acm:name>Defensive Programming</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3-1">
+            <acm:description>Construct input validation and data sanitization in applications, considering adversarial control of the input channel</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3-2">
+            <acm:description>Explain the tradeoffs of developing a program in a typesafe language</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3-3">
+            <acm:description>Implement programs that properly handle exceptions and error conditions</acm:description>
+            <acm:obtainedBy>
+              <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-2">
+                <acm:author>Jova Jovic</acm:author>
+                <acm:description rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+                >4</acm:description>
+                <acm:format>xsd</acm:format>
+              </acm:LearningResource>
+            </acm:obtainedBy>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-3-4">
+            <acm:description>Examine the need to update software to fix security vulnerabilities</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-4">
+        <acm:name>Threats and Attacks</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-4-1">
+            <acm:description>Examine likely attack types against standalone and networked systems</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-4-2">
+            <acm:description>Illustrate the key principles of social engineering, including membership and trust</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5">
+        <acm:name>Cryptography</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5-1">
+            <acm:description>Describe key terms in cryptology, including cryptography, cryptanalysis, cipher, cryptographic algorithm, and public key infrastructure</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5-2">
+            <acm:description>Use a variety of ciphers to encrypt plaintext into ciphertext</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5-3">
+            <acm:description>Apply cryptographic hash functions for authentication and data integrity</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-5-4">
+            <acm:description>Contrast symmetric and asymmetric encryption in relation to securing electronic communications and transactions</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-6">
+        <acm:name>Web Security</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-6-1">
+            <acm:description>Explain browser and web security model concepts, including same-origin policy, web sessions, and secure communication channels</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
   </acm:KnowledgeArea>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-3-2">
     <acm:description>Implement common search algorithms, including linear and binary searches</acm:description>
   </acm:LearningOutcome>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-3">
-    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
     <acm:description>Examine the issues of trust in HCI, including examples of both high and low trust systems</acm:description>
+    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
   </acm:LearningOutcome>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-3-2">
     <acm:description>Compare the efficiency of basic operations across various data structures</acm:description>
@@ -832,59 +841,59 @@ CS2013)</acm:name>
     <acm:description>Create a simple program that uses persistence to save data across multiple executions</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI">
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-2">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-2-3"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-2-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-2-1"/>
-        <acm:name>Designing Interaction</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-3"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-2"/>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-1">
-            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
-            <acm:description>Analyze the importance of human-centered software</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Foundations</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
+    <acm:name>Human-Computer Interaction</acm:name>
     <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
     >5</acm:estimatedContactHours>
-    <acm:name>Human-Computer Interaction</acm:name>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1">
+        <acm:name>Foundations</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-1">
+            <acm:description>Analyze the importance of human-centered software</acm:description>
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-2"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-3"/>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-2">
+        <acm:name>Designing Interaction</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-2-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-2-2"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-2-3"/>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
   </acm:KnowledgeArea>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-3-1">
-    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
-    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
     <acm:description>Implement basic numerical algorithms</acm:description>
+    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
+    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
   </acm:LearningOutcome>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1-3">
     <acm:description>Investigate security implications related to emerging computational paradigms</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-2">
-    <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-2-2">
-        <acm:description>Analyze social tradeoffs in technical decisions</acm:description>
-      </acm:LearningOutcome>
-    </acm:includes>
+    <acm:name>Analytical Tools</acm:name>
     <acm:includes>
       <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-2-1">
         <acm:description>Contrast stakeholder positions in a given scenario</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Analytical Tools</acm:name>
+    <acm:includes>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-2-2">
+        <acm:description>Analyze social tradeoffs in technical decisions</acm:description>
+      </acm:LearningOutcome>
+    </acm:includes>
   </acm:KnowledgeUnit>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-3">
+    <acm:name>Tools and Environments</acm:name>
     <acm:includes>
       <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-3-1">
         <acm:description>Use a set of development tools for software systems.</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Tools and Environments</acm:name>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-1">
     <acm:description>Create simple programs that use abstract data types (ADTs)</acm:description>
@@ -899,9 +908,10 @@ CS2013)</acm:name>
     <acm:description>Investigate potential vulnerabilities in provided programming code</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-3">
+    <acm:name>Professional Ethics</acm:name>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-3-3">
-        <acm:description>Compare professional codes of conduct from the ACM, IEEE Computer Society, and other organizations</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-3-1">
+        <acm:description>Examine various ethics scenarios in computing</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
@@ -910,11 +920,10 @@ CS2013)</acm:name>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-3-1">
-        <acm:description>Examine various ethics scenarios in computing</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-3-3">
+        <acm:description>Compare professional codes of conduct from the ACM, IEEE Computer Society, and other organizations</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Professional Ethics</acm:name>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-5-6">
     <acm:description>Demonstrate how concepts from graphs and trees appear in data structures, algorithms, proof techniques (structural induction), and counting</acm:description>
@@ -929,27 +938,23 @@ CS2013)</acm:name>
     <acm:description>Discuss the differences between single thread and multiple thread, as well as single server and multiple server models</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-2">
-    <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-2-2">
-        <acm:description>Investigate the risks in using third-party applications, software tools, and libraries</acm:description>
-      </acm:LearningOutcome>
-    </acm:includes>
+    <acm:name>Software Project Management</acm:name>
     <acm:includes>
       <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-2-1">
         <acm:description>Illustrate common behaviors that contribute to the effective functioning of a team</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Software Project Management</acm:name>
-  </acm:KnowledgeUnit>
-  <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-1">
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-1-4">
-        <acm:description>Investigate social engineering attacks and the types of bad actors who might perform them</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-2-2">
+        <acm:description>Investigate the risks in using third-party applications, software tools, and libraries</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
+  </acm:KnowledgeUnit>
+  <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-1">
+    <acm:name>Social Context</acm:name>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-1-3">
-        <acm:description>Analyze the impact of diversity on the computing profession</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-1-1">
+        <acm:description>Investigate both positive and negative ways in which computing technology impacts information exchange and social interaction</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
@@ -958,11 +963,15 @@ CS2013)</acm:name>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-1-1">
-        <acm:description>Investigate both positive and negative ways in which computing technology impacts information exchange and social interaction</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-1-3">
+        <acm:description>Analyze the impact of diversity on the computing profession</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Social Context</acm:name>
+    <acm:includes>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-1-4">
+        <acm:description>Investigate social engineering attacks and the types of bad actors who might perform them</acm:description>
+      </acm:LearningOutcome>
+    </acm:includes>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7-3">
     <acm:description>Design a test plan that validates software security</acm:description>
@@ -989,15 +998,16 @@ CS2013)</acm:name>
     <acm:description>Explain the concept of data independence and its importance in a database system</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2">
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2-3"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2-2"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2-1"/>
     <acm:name>Cross-Layer Communications</acm:name>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2-1"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2-2"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2-3"/>
   </acm:KnowledgeUnit>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-5">
+    <acm:name>Software Design</acm:name>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-5-3">
-        <acm:description>Describe the cost and tradeoffs associated with designing security into software</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-5-1">
+        <acm:description>Illustrate principles of secure software design</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
@@ -1006,24 +1016,19 @@ CS2013)</acm:name>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-5-1">
-        <acm:description>Illustrate principles of secure software design</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-5-3">
+        <acm:description>Describe the cost and tradeoffs associated with designing security into software</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Software Design</acm:name>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7-2">
     <acm:description>Implement in code different types of testing, including security, unit testing, system testing, integration testing, and interface usability</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-5">
+    <acm:name>Privacy and Civil Liberties</acm:name>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-5-4">
-        <acm:description>Analyze technological solutions to privacy concerns</acm:description>
-      </acm:LearningOutcome>
-    </acm:includes>
-    <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-5-3">
-        <acm:description>Illustrate the role of data collection in the implementation of pervasive surveillance systems</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-5-1">
+        <acm:description>Outline the need for legal protection of personal privacy</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
@@ -1032,11 +1037,15 @@ CS2013)</acm:name>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-5-1">
-        <acm:description>Outline the need for legal protection of personal privacy</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-5-3">
+        <acm:description>Illustrate the role of data collection in the implementation of pervasive surveillance systems</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Privacy and Civil Liberties</acm:name>
+    <acm:includes>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-5-4">
+        <acm:description>Analyze technological solutions to privacy concerns</acm:description>
+      </acm:LearningOutcome>
+    </acm:includes>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-4-1">
     <acm:description>Investigate potential errors detected from both strongtype and weak-type languages</acm:description>
@@ -1051,6 +1060,39 @@ CS2013)</acm:name>
     <acm:description>Formulate queries in SQL or a similar query language to elicit information from a database</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF">
+    <acm:name>Software Development Fundamentals</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >30</acm:estimatedContactHours>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1">
+        <acm:name>Algorithms and Design</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1-2"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1-3"/>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2">
+        <acm:name>Fundamental Programming Concepts</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-2"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-3"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-4"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-5"/>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-6">
+            <acm:description>Create a simple program that uses recursion</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-3">
+        <acm:name>Fundamental Data Structures</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-3-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-3-2"/>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
     <acm:consistsOf>
       <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-4">
         <acm:includes>
@@ -1096,108 +1138,45 @@ CS2013)</acm:name>
         </acm:includes>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-3">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-3-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-3-1"/>
-        <acm:name>Fundamental Data Structures</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-6">
-            <acm:description>Create a simple program that uses recursion</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-5"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-4"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-3"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-2-1"/>
-        <acm:name>Fundamental Programming Concepts</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1-3"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SDF-1-1"/>
-        <acm:name>Algorithms and Design</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >30</acm:estimatedContactHours>
-    <acm:name>Software Development Fundamentals</acm:name>
   </acm:KnowledgeArea>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1">
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1-3"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1-2"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1-1"/>
     <acm:name>Computational Paradigms</acm:name>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1-1"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1-2"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1-3"/>
   </acm:KnowledgeUnit>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-4">
+    <acm:name>Requirements Engineering</acm:name>
     <acm:includes>
       <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-4-1">
         <acm:description>Implement the requirements for a secure software system</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Requirements Engineering</acm:name>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7-1">
     <acm:description>Differentiate between program validation and verification</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR">
+    <acm:name>Architecture and Organization</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >10</acm:estimatedContactHours>
     <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-4">
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-1">
+        <acm:name>Digital Logic and Digital Systems</acm:name>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-4-2">
-            <acm:description>Calculate the effect of memory latency on execution time across the memory hierarchy</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-1-1">
+            <acm:description>Diagram the digital components of computing architecture</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-4-1">
-            <acm:description>Compare the cost and performance of different types of memory technology</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Memory System Organization and Architecture</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3-4">
-            <acm:description>Demonstrate the basic concepts of interrupts and I/O operations</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3-3">
-            <acm:description>Create simple assembly language program segments</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3-2">
-            <acm:description>Diagram how high-level language patterns map to assembly/machine language, including subroutine calls</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3-1">
-            <acm:description>Decompose the organization and major functional units of the classical von Neumann machine</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Assembly Level Machine Organization</acm:name>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
     <acm:consistsOf>
       <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-2">
+        <acm:name>Machine Level Representation of Data</acm:name>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-2-4">
-            <acm:description>Compare different methods for converting numerical data from one format to another</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-2-3">
-            <acm:description>Examine the internal representation of non-numeric data</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-2-1">
+            <acm:description>Analyze alternative formats to represent numerical data</acm:description>
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
@@ -1206,46 +1185,76 @@ CS2013)</acm:name>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-2-1">
-            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
-            <acm:description>Analyze alternative formats to represent numerical data</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-2-3">
+            <acm:description>Examine the internal representation of non-numeric data</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
-        <acm:name>Machine Level Representation of Data</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-2-4">
+            <acm:description>Compare different methods for converting numerical data from one format to another</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
     <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-1">
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3">
+        <acm:name>Assembly Level Machine Organization</acm:name>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-1-1">
-            <acm:description>Diagram the digital components of computing architecture</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3-1">
+            <acm:description>Decompose the organization and major functional units of the classical von Neumann machine</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
-        <acm:name>Digital Logic and Digital Systems</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3-2">
+            <acm:description>Diagram how high-level language patterns map to assembly/machine language, including subroutine calls</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3-3">
+            <acm:description>Create simple assembly language program segments</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-3-4">
+            <acm:description>Demonstrate the basic concepts of interrupts and I/O operations</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >10</acm:estimatedContactHours>
-    <acm:name>Architecture and Organization</acm:name>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-4">
+        <acm:name>Memory System Organization and Architecture</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-4-1">
+            <acm:description>Compare the cost and performance of different types of memory technology</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-4-2">
+            <acm:description>Calculate the effect of memory latency on execution time across the memory hierarchy</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
   </acm:KnowledgeArea>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-4">
-    <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-4-2">
-        <acm:description>Discuss the rationale for legal protection of intellectual property</acm:description>
-      </acm:LearningOutcome>
-    </acm:includes>
+    <acm:name>Intellectual Property</acm:name>
     <acm:includes>
       <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-4-1">
         <acm:description>Differentiate among intellectual property, fair-use, copyright, patent, trademark, and plagiarism</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Intellectual Property</acm:name>
+    <acm:includes>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-4-2">
+        <acm:description>Discuss the rationale for legal protection of intellectual property</acm:description>
+      </acm:LearningOutcome>
+    </acm:includes>
   </acm:KnowledgeUnit>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7">
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7-3"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7-2"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7-1"/>
     <acm:name>Software Verification and Validation</acm:name>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7-1"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7-2"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-7-3"/>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3-2">
     <acm:description>Diagram a relational data model for a given scenario that addresses security and privacy concerns</acm:description>
@@ -1257,9 +1266,10 @@ CS2013)</acm:name>
     <acm:description>Illustrate the concepts of virtual memory, including paging, thrashing, and partitioning</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-7">
+    <acm:name>Sustainability</acm:name>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-7-3">
-        <acm:description>Write a company-wide security policy</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-7-1">
+        <acm:description>Investigate laws applicable to computer crimes</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
@@ -1268,52 +1278,47 @@ CS2013)</acm:name>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-7-1">
-        <acm:description>Investigate laws applicable to computer crimes</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-7-3">
+        <acm:description>Write a company-wide security policy</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Sustainability</acm:name>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-2-2">
     <acm:description>Investigate the use of random/pseudo random number generation in cybersecurity applications</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-6">
+    <acm:name>Software Construction</acm:name>
     <acm:includes>
       <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-6-1">
         <acm:description>Implement a small software project that uses a defined coding standard</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Software Construction</acm:name>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3-3">
     <acm:description>Describe the differences among relational data models and other models</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-3">
-    <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-3-3">
-        <acm:description>Investigate other uses of parallelism, including reliability and redundancy of execution</acm:description>
-      </acm:LearningOutcome>
-    </acm:includes>
+    <acm:name>Parallelism</acm:name>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-3-1"/>
     <acm:includes>
       <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-3-2">
         <acm:description>Summarize the differences among the concepts of instruction parallelism, data parallelism, thread parallelism/multitasking, and task/request parallelism</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-3-1"/>
-    <acm:name>Parallelism</acm:name>
+    <acm:includes>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-3-3">
+        <acm:description>Investigate other uses of parallelism, including reliability and redundancy of execution</acm:description>
+      </acm:LearningOutcome>
+    </acm:includes>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-4-1">
     <acm:description>Illustrate the principles of memory management</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-6">
+    <acm:name>Professional Communication</acm:name>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-6-4">
-        <acm:description>Analyze case studies related to sustainable computing efforts</acm:description>
-      </acm:LearningOutcome>
-    </acm:includes>
-    <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-6-3">
-        <acm:description>Develop technical artifacts</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-6-1">
+        <acm:description>Use effective oral, written, electronic, and visual communication techniques with stakeholders</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
@@ -1322,11 +1327,15 @@ CS2013)</acm:name>
       </acm:LearningOutcome>
     </acm:includes>
     <acm:includes>
-      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-6-1">
-        <acm:description>Use effective oral, written, electronic, and visual communication techniques with stakeholders</acm:description>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-6-3">
+        <acm:description>Develop technical artifacts</acm:description>
       </acm:LearningOutcome>
     </acm:includes>
-    <acm:name>Professional Communication</acm:name>
+    <acm:includes>
+      <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SP-6-4">
+        <acm:description>Analyze case studies related to sustainable computing efforts</acm:description>
+      </acm:LearningOutcome>
+    </acm:includes>
   </acm:KnowledgeUnit>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-4-2">
     <acm:description>Explain the security implications of a type-safe language for software development</acm:description>
@@ -1335,53 +1344,15 @@ CS2013)</acm:name>
     <acm:description>Describe the advantages and disadvantages of central organizational control over data</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL">
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-4">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-4-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-4-1"/>
-        <acm:name>Basic Type Systems</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-3">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-3-2">
-            <acm:description>Describe potential security vulnerabilities in eventdriven GUI applications</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-3-1">
-            <acm:description>Create an interactive program using an event-driven style</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Event-Driven and Reactive Programming</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-2">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-2-2">
-            <acm:description>Contrast functional and object-oriented programming paradigms</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-2-1">
-            <acm:description>Implement algorithms which utilize immutable and mutable variables</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Functional Programming</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
+    <acm:name>Programming Languages</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >15</acm:estimatedContactHours>
     <acm:consistsOf>
       <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-1">
+        <acm:name>Object-Oriented Programming</acm:name>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-1-4">
-            <acm:description>Implement in code OOP constructs, including encapsulation, abstraction, inheritance, and polymorphism</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-1-3">
-            <acm:description>Use access and visibility modifiers to secure class data and methods</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-1-1">
+            <acm:description>Design a simple class hierarchy using superclasses, subclasses, and abstract classes</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
@@ -1390,16 +1361,54 @@ CS2013)</acm:name>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-1-1">
-            <acm:description>Design a simple class hierarchy using superclasses, subclasses, and abstract classes</acm:description>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-1-3">
+            <acm:description>Use access and visibility modifiers to secure class data and methods</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
-        <acm:name>Object-Oriented Programming</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-1-4">
+            <acm:description>Implement in code OOP constructs, including encapsulation, abstraction, inheritance, and polymorphism</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >15</acm:estimatedContactHours>
-    <acm:name>Programming Languages</acm:name>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-2">
+        <acm:name>Functional Programming</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-2-1">
+            <acm:description>Implement algorithms which utilize immutable and mutable variables</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-2-2">
+            <acm:description>Contrast functional and object-oriented programming paradigms</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-3">
+        <acm:name>Event-Driven and Reactive Programming</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-3-1">
+            <acm:description>Create an interactive program using an event-driven style</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-3-2">
+            <acm:description>Describe potential security vulnerabilities in eventdriven GUI applications</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-4">
+        <acm:name>Basic Type Systems</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-4-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL-4-2"/>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
   </acm:KnowledgeArea>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-5-1">
     <acm:description>Investigate the features and limitations of an operating system used to provide protection and security</acm:description>
@@ -1424,8 +1433,8 @@ CS2013)</acm:name>
     >12</acm:estimatedContactHours>
   </acm:KnowledgeArea>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-2">
-    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
     <acm:description>Estimate time and space complexities for a given algorithm using Big-O notation</acm:description>
+    <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
   </acm:LearningOutcome>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-1">
     <acm:description>Explain the characteristics that distinguish the database approach from the approach of programming with data files</acm:description>
@@ -1434,14 +1443,125 @@ CS2013)</acm:name>
     <acm:description>Describe proven techniques to secure data and information</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS">
+    <acm:name>Discrete Structures</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >40</acm:estimatedContactHours>
     <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-5"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-4"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-3"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-1"/>
-        <acm:name>Discrete Probability</acm:name>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-1">
+        <acm:name>Sets, Relations, and Functions </acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-1-1">
+            <acm:description>Explain with examples the basic terminology of functions, relations, and sets</acm:description>
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-2"/>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-1-2">
+            <acm:description>Perform the operations associated with sets, functions, and relations</acm:description>
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-2"/>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-1-3">
+            <acm:description>Compare practical examples to the appropriate set, function, or relation model, and interpret the associated operations and terminology in context</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2">
+        <acm:name>Basic Logic</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-1">
+            <acm:description>Convert logical statements from informal language to propositional and predicate logic expressions</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-2">
+            <acm:description>Apply formal logic proofs and/or informal, but rigorous, logical reasoning to real problems such as predicting the behavior of software or solving problems such as puzzles</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-3">
+            <acm:description>Use the rules of inference to construct proofs in propositional and predicate logic</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-4">
+            <acm:description>Describe how symbolic logic can be used to model reallife situations or computer applications</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-5">
+            <acm:description>Apply formal methods of symbolic propositional and predicate logic, such as calculating validity of formulae and computing normal forms</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-6">
+            <acm:description>Describe the strengths and limitations of propositional and predicate logic</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3">
+        <acm:name>Proof Techniques</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-1">
+            <acm:description>Outline the basic structure of each proof technique, including direct proof, proof by contradiction, and induction</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-2">
+            <acm:description>Apply each of the proof techniques (direct proof, proof by contradiction, and induction) correctly in the construction of a sound argument</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-3">
+            <acm:description>Deduce the best type of proof for a given problem</acm:description>
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-4">
+            <acm:description>Explain the parallels between ideas of mathematical and/or structural induction to recursion and recursively defined structures</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-5">
+            <acm:description>Explain the relationship between weak and strong induction and give examples of the appropriate use of each</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4">
+        <acm:name>Basics of Counting</acm:name>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-1">
+            <acm:description>Apply counting arguments, including sum and product rules, inclusionexclusion principle and arithmetic/geometric progressions</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-2">
+            <acm:description>Apply the pigeonhole principle in the context of a formal proof</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-3">
+            <acm:description>Calculate permutations and combinations of a set, and interpret the meaning in the context of the particular application</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes>
+          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-4">
+            <acm:description>Compare real-world applications appropriate to counting formalisms</acm:description>
+          </acm:LearningOutcome>
+        </acm:includes>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-5"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-6"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-7"/>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
     <acm:consistsOf>
@@ -1462,126 +1582,15 @@ CS2013)</acm:name>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
     <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-7"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-6"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-5"/>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-4">
-            <acm:description>Compare real-world applications appropriate to counting formalisms</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-3">
-            <acm:description>Calculate permutations and combinations of a set, and interpret the meaning in the context of the particular application</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-2">
-            <acm:description>Apply the pigeonhole principle in the context of a formal proof</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-4-1">
-            <acm:description>Apply counting arguments, including sum and product rules, inclusionexclusion principle and arithmetic/geometric progressions</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Basics of Counting</acm:name>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6">
+        <acm:name>Discrete Probability</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-2"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-3"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-4"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-5"/>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-5">
-            <acm:description>Explain the relationship between weak and strong induction and give examples of the appropriate use of each</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-4">
-            <acm:description>Explain the parallels between ideas of mathematical and/or structural induction to recursion and recursively defined structures</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-3">
-            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-4"/>
-            <acm:description>Deduce the best type of proof for a given problem</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-2">
-            <acm:description>Apply each of the proof techniques (direct proof, proof by contradiction, and induction) correctly in the construction of a sound argument</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-1">
-            <acm:description>Outline the basic structure of each proof technique, including direct proof, proof by contradiction, and induction</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Proof Techniques</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-6">
-            <acm:description>Describe the strengths and limitations of propositional and predicate logic</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-5">
-            <acm:description>Apply formal methods of symbolic propositional and predicate logic, such as calculating validity of formulae and computing normal forms</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-4">
-            <acm:description>Describe how symbolic logic can be used to model reallife situations or computer applications</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-3">
-            <acm:description>Use the rules of inference to construct proofs in propositional and predicate logic</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-2">
-            <acm:description>Apply formal logic proofs and/or informal, but rigorous, logical reasoning to real problems such as predicting the behavior of software or solving problems such as puzzles</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-2-1">
-            <acm:description>Convert logical statements from informal language to propositional and predicate logic expressions</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Basic Logic</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-1">
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-1-3">
-            <acm:description>Compare practical examples to the appropriate set, function, or relation model, and interpret the associated operations and terminology in context</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-1-2">
-            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-2"/>
-            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
-            <acm:description>Perform the operations associated with sets, functions, and relations</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:includes>
-          <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-1-1">
-            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-2"/>
-            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-1"/>
-            <acm:description>Explain with examples the basic terminology of functions, relations, and sets</acm:description>
-          </acm:LearningOutcome>
-        </acm:includes>
-        <acm:name>Sets, Relations, and Functions </acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >40</acm:estimatedContactHours>
-    <acm:name>Discrete Structures</acm:name>
   </acm:KnowledgeArea>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-1">
     <acm:description>Analyze best, average, and worst-case behaviors of an algorithm</acm:description>
@@ -1596,12 +1605,23 @@ CS2013)</acm:name>
     <acm:description>Use mechanisms available in an operating system to control access to resources</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL">
+    <acm:name>Algorithms and Complexity</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >15</acm:estimatedContactHours>
     <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-4">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-4-3"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-4-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-4-1"/>
-        <acm:name>Basic Automata, Computability, and Complexity</acm:name>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1">
+        <acm:name>Basic Analysis</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-2"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-3"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-4"/>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-2">
+        <acm:name>Algorithmic Strategies</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-2-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-2-2"/>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
     <acm:consistsOf>
@@ -1618,24 +1638,13 @@ CS2013)</acm:name>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
     <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-2">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-2-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-2-1"/>
-        <acm:name>Algorithmic Strategies</acm:name>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-4">
+        <acm:name>Basic Automata, Computability, and Complexity</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-4-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-4-2"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-4-3"/>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-4"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-3"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-1"/>
-        <acm:name>Basic Analysis</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >15</acm:estimatedContactHours>
-    <acm:name>Algorithms and Complexity</acm:name>
   </acm:KnowledgeArea>
   <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-6-2">
     <acm:description>Diagram the physical hardware devices and the virtual devices maintained by an operating system</acm:description>
@@ -1644,62 +1653,62 @@ CS2013)</acm:name>
     <acm:description>Analyze the concept of virtualization with respect to hardware and software</acm:description>
   </acm:LearningOutcome>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS">
+    <acm:name>Operating Systems</acm:name>
+    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >10</acm:estimatedContactHours>
+    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-1"/>
+    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-2"/>
     <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-6">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-6-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-6-1"/>
-        <acm:name>Virtual Machines</acm:name>
-      </acm:KnowledgeUnit>
-    </acm:consistsOf>
-    <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-5">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-5-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-5-1"/>
-        <acm:name>Security and Protection</acm:name>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-3">
+        <acm:name>Concurrency</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-3-1"/>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
     <acm:consistsOf>
       <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-4">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-4-2"/>
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-4-1"/>
         <acm:name>Memory Management</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-4-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-4-2"/>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
     <acm:consistsOf>
-      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-3">
-        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-3-1"/>
-        <acm:name>Concurrency</acm:name>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-5">
+        <acm:name>Security and Protection</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-5-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-5-2"/>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
-    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-2"/>
-    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-1"/>
-    <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >10</acm:estimatedContactHours>
-    <acm:name>Operating Systems</acm:name>
+    <acm:consistsOf>
+      <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-6">
+        <acm:name>Virtual Machines</acm:name>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-6-1"/>
+        <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#OS-6-2"/>
+      </acm:KnowledgeUnit>
+    </acm:consistsOf>
   </acm:KnowledgeArea>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1">
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-5"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-4"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-3"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-2"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-1"/>
     <acm:name>Information Management Concepts</acm:name>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-1"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-2"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-3"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-4"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1-5"/>
   </acm:KnowledgeUnit>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF">
-    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-3"/>
-    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2"/>
-    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1"/>
+    <acm:name>Systems Fundamentals</acm:name>
     <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
     >5</acm:estimatedContactHours>
-    <acm:name>Systems Fundamentals</acm:name>
+    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-1"/>
+    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-2"/>
+    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SF-3"/>
   </acm:KnowledgeArea>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2">
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-5"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-4"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-3"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-2"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-1"/>
     <acm:name>Database Systems</acm:name>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-1"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-2"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-3"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-4"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2-5"/>
   </acm:KnowledgeUnit>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE">
     <acm:name>Software Engineering</acm:name>
@@ -1713,11 +1722,17 @@ CS2013)</acm:name>
     <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-4"/>
     <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#SE-6"/>
   </acm:KnowledgeArea>
+  <bibo:Course rdf:about="http://purl.org/ontology/bibo/nesto-o-algebri">
+    <bibo:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#analiza-podataka-1</bibo:citedBy>
+    <bibo:number>2</bibo:number>
+    <bibo:section>15</bibo:section>
+    <bibo:content>Nesto o algebri</bibo:content>
+  </bibo:Course>
   <acm:KnowledgeUnit rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3">
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3-3"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3-2"/>
-    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3-1"/>
     <acm:name>Data Modeling</acm:name>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3-1"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3-2"/>
+    <acm:includes rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3-3"/>
   </acm:KnowledgeUnit>
   <acm:Course rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#C-5">
     <acm:isTaughtUsing rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
@@ -1730,12 +1745,18 @@ CS2013)</acm:name>
     <acm:description rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
     >4</acm:description>
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-2-1"/>
-    <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-3"/>
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CN-1-2"/>
+    <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-3-3"/>
     <acm:teacher>Jova Jovic</acm:teacher>
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#NC-2-1"/>
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-6-5"/>
   </acm:Course>
+  <bibo:Course rdf:about="http://purl.org/ontology/bibo/nesto-o-analizi-da">
+    <bibo:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#analiza-podataka-1</bibo:citedBy>
+    <bibo:number>3</bibo:number>
+    <bibo:section>5</bibo:section>
+    <bibo:content>Nesto o analizi da</bibo:content>
+  </bibo:Course>
   <acm:Course rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#C-3">
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-1"/>
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-3"/>
@@ -1781,12 +1802,12 @@ CS2013)</acm:name>
     >6</acm:levelOfStudyProperty>
   </acm:Course>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM">
-    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3"/>
-    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2"/>
-    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1"/>
+    <acm:name>Information Management</acm:name>
     <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
     >6</acm:estimatedContactHours>
-    <acm:name>Information Management</acm:name>
+    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-1"/>
+    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-2"/>
+    <acm:consistsOf rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#IM-3"/>
   </acm:KnowledgeArea>
   <acm:Course rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#C-2">
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS-1-2"/>

@@ -10,8 +10,6 @@ public interface DataService {
 
     String generateStarterRdf() throws IOException;
 
-    String getUriLearningResource(String name);
-
-    String getUriBiboDocument(String name);
+    String getUriId(String name);
 
 }

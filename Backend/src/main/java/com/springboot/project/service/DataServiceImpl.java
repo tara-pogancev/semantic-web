@@ -41,25 +41,26 @@ public class DataServiceImpl implements DataService {
         OntModel om = ontologyService.getStarterModel();
         om.read(DATA_FILE);
 
-        AcmOntologyModel acmOntologyModel = ontologyService.getAcmOntologyModel(ontologyService.getAcmOntModel());
-        BiboOntologyModel biboOntologyModel = ontologyService.getBiboOntologyModel(ontologyService.getBiboOntModel());
+        AcmOntologyModel acmOntology = ontologyService.getAcmOntologyModel(om);
+        BiboOntologyModel biboOntology = ontologyService.getBiboOntologyModel(om);
 
-        Individual fileIndividual = acmOntologyModel.learningResource.createIndividual(getUriLearningResource(dto.name));
-        fileIndividual.addLiteral(acmOntologyModel.difficultyLevelProperty, dto.difficultyLevel.toString())
-                .addLiteral(acmOntologyModel.formatProperty, dto.format)
-                .addLiteral(acmOntologyModel.nameProperty, dto.name)
-                .addLiteral(acmOntologyModel.authorProperty, dto.author);
+        String id = ACM_URI_PREFIX + getUriId(dto.name);
+        Individual fileIndividual = acmOntology.learningResource.createIndividual(id);
+        fileIndividual.addLiteral(acmOntology.difficultyLevelProperty, om.createTypedLiteral(dto.difficultyLevel.toString()))
+                .addLiteral(acmOntology.formatProperty, om.createTypedLiteral(dto.format))
+                .addLiteral(acmOntology.nameProperty, om.createTypedLiteral(dto.name))
+                .addLiteral(acmOntology.authorProperty, om.createTypedLiteral(dto.author));
         om.createIndividual(fileIndividual);
 
         for (BiboReferencesDTO biboReference : dto.cites) {
-//            String id = getUriBiboDocument(biboReference.content);
-//            Individual referenceIndividual = biboOntologyModel.document.createIndividual(id);
-//            referenceIndividual.addLiteral(biboOntologyModel.contentProprety, biboReference.content)
-//                    .addLiteral(biboOntologyModel.sectionProperty, biboReference.section.toString())
-//                    .addLiteral(biboOntologyModel.numberProperty, biboReference.number.toString())
-//                    .addLiteral(biboOntologyModel.getCitedBy(), getUriLearningResource(dto.name));
-//
-//            om.createIndividual(referenceIndividual);
+            String biboId = BIBO_URI_PREFIX + getUriId(biboReference.content);
+            Individual referenceIndividual = biboOntology.document.createIndividual(biboId);
+            referenceIndividual.addLiteral(biboOntology.contentProprety, om.createTypedLiteral(biboReference.content))
+                    .addLiteral(biboOntology.sectionProperty, om.createTypedLiteral(biboReference.section.toString()))
+                    .addLiteral(biboOntology.numberProperty, om.createTypedLiteral(biboReference.number.toString()))
+                    .addLiteral(biboOntology.getCitedBy(), id);
+
+            om.createIndividual(referenceIndividual);
         }
 
         FileWriter out = new FileWriter(DATA_FILE, false);
@@ -93,8 +94,8 @@ public class DataServiceImpl implements DataService {
             int estimatedContactHours = (int) currentRow.getCell(2).getNumericCellValue();
 
             Individual individual = acmOntology.knowledgeArea.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(acmOntology.nameProperty,  om.createTypedLiteral(name));
-            individual.addLiteral(acmOntology.estimatedContactHoursProperty,  om.createTypedLiteral(estimatedContactHours));
+            individual.addLiteral(acmOntology.nameProperty, om.createTypedLiteral(name));
+            individual.addLiteral(acmOntology.estimatedContactHoursProperty, om.createTypedLiteral(estimatedContactHours));
             knowledgeAreas.put(id, individual);
             om.createIndividual(individual);
         }
@@ -110,7 +111,7 @@ public class DataServiceImpl implements DataService {
             String knowledgeAreaId = currentRow.getCell(2).getStringCellValue();
 
             Individual individual = acmOntology.knowledgeUnit.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(acmOntology.nameProperty,  om.createTypedLiteral(name));
+            individual.addLiteral(acmOntology.nameProperty, om.createTypedLiteral(name));
 
             Individual knowledgeAreaIndividual = knowledgeAreas.get(knowledgeAreaId);
             knowledgeAreaIndividual.addProperty(acmOntology.consistsOf, individual);
@@ -130,7 +131,7 @@ public class DataServiceImpl implements DataService {
             String knowledgeUnitId = currentRow.getCell(2).getStringCellValue();
 
             Individual individual = acmOntology.learningOutcome.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(acmOntology.descriptionProperty,  om.createTypedLiteral(description));
+            individual.addLiteral(acmOntology.descriptionProperty, om.createTypedLiteral(description));
 
             Individual knowledgeUnitIndividual = knowledgeUnits.get(knowledgeUnitId);
             knowledgeUnitIndividual.addProperty(acmOntology.includes, individual);
@@ -153,10 +154,10 @@ public class DataServiceImpl implements DataService {
             String teacher = currentRow.getCell(5).getStringCellValue();
 
             Individual individual = acmOntology.course.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(acmOntology.nameProperty,  om.createTypedLiteral(name));
-            individual.addLiteral(acmOntology.difficultyLevelProperty,  om.createTypedLiteral(difficultyLevel));
-            individual.addLiteral(acmOntology.levelOfStudyProperty,  om.createTypedLiteral(levelOfStudy));
-            individual.addLiteral(acmOntology.teacherProperty,  om.createTypedLiteral(teacher));
+            individual.addLiteral(acmOntology.nameProperty, om.createTypedLiteral(name));
+            individual.addLiteral(acmOntology.difficultyLevelProperty, om.createTypedLiteral(difficultyLevel));
+            individual.addLiteral(acmOntology.levelOfStudyProperty, om.createTypedLiteral(levelOfStudy));
+            individual.addLiteral(acmOntology.teacherProperty, om.createTypedLiteral(teacher));
 
             for (String loId : learningOutcomeIds) {
                 Individual learningOutcomeIndividual = learningOutcomes.get(loId);
@@ -181,9 +182,9 @@ public class DataServiceImpl implements DataService {
             String format = currentRow.getCell(5).getStringCellValue();
 
             Individual individual = acmOntology.learningResource.createIndividual(ACM_URI_PREFIX + id);
-            individual.addLiteral(acmOntology.authorProperty,  om.createTypedLiteral(author));
-            individual.addLiteral(acmOntology.difficultyLevelProperty,  om.createTypedLiteral(difficultyLevel));
-            individual.addLiteral(acmOntology.formatProperty,  om.createTypedLiteral(format));
+            individual.addLiteral(acmOntology.authorProperty, om.createTypedLiteral(author));
+            individual.addLiteral(acmOntology.difficultyLevelProperty, om.createTypedLiteral(difficultyLevel));
+            individual.addLiteral(acmOntology.formatProperty, om.createTypedLiteral(format));
 
             for (String cId : coursesIds) {
                 Individual courseIndividual = courses.get(cId);
@@ -207,15 +208,8 @@ public class DataServiceImpl implements DataService {
     }
 
     @Override
-    public String getUriLearningResource(String name) {
-        String prefix = ACM_URI_PREFIX.replace("#", "/");
-        return prefix + "learning-resource/" + name.toLowerCase().replace(" ", "+");
-    }
-
-    @Override
-    public String getUriBiboDocument(String name) {
-        String prefix = BIBO_URI_PREFIX.replace("#", "/");
-        return prefix + "bibo-document/" + name.toLowerCase().replace(" ", "+");
+    public String getUriId(String name) {
+        return name.toLowerCase().replace(" ", "-");
     }
 
 }
