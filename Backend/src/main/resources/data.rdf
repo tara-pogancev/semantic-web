@@ -68,6 +68,12 @@
       </acm:KnowledgeUnit>
     </acm:consistsOf>
   </acm:KnowledgeArea>
+  <bibo:Document rdf:about="http://purl.org/ontology/bibo/ALGEBRA-BASICS">
+    <bibo:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#INTRODUCTION-TO-MATHEMATICAL-ANALYSIS</bibo:citedBy>
+    <bibo:number>2</bibo:number>
+    <bibo:section>15</bibo:section>
+    <bibo:content>Algebra Basics</bibo:content>
+  </bibo:Document>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CN">
     <acm:name>Computational Science</acm:name>
     <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
@@ -146,12 +152,6 @@
       </acm:KnowledgeUnit>
     </acm:consistsOf>
   </acm:KnowledgeArea>
-  <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#analiza-podataka-1">
-    <acm:author>Tara Pogancev</acm:author>
-    <acm:name>Analiza podataka 1</acm:name>
-    <acm:format>PDF</acm:format>
-    <acm:description>1</acm:description>
-  </acm:LearningResource>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PD">
     <acm:name>Parallel and Distributed Computing</acm:name>
     <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
@@ -770,11 +770,20 @@ CS2013)</acm:name>
         <acm:name>Memory System Organization and Architecture</acm:name>
         <acm:includes>
           <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-4-1">
+            <acm:obtainedBy>
+              <acm:LearningResource rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#INTRODUCTION-TO-MATHEMATICAL-ANALYSIS">
+                <acm:author>Tara Pogancev</acm:author>
+                <acm:name>Introduction to Mathematical Analysis</acm:name>
+                <acm:format>PDF</acm:format>
+                <acm:description>1</acm:description>
+              </acm:LearningResource>
+            </acm:obtainedBy>
             <acm:description>Compare the cost and performance of different types of memory technology</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
         <acm:includes>
           <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AR-4-2">
+            <acm:obtainedBy rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#INTRODUCTION-TO-MATHEMATICAL-ANALYSIS"/>
             <acm:description>Calculate the effect of memory latency on execution time across the memory hierarchy</acm:description>
           </acm:LearningOutcome>
         </acm:includes>
@@ -891,12 +900,6 @@ CS2013)</acm:name>
       </acm:KnowledgeUnit>
     </acm:consistsOf>
   </acm:KnowledgeArea>
-  <bibo:Document rdf:about="http://purl.org/ontology/bibo/nesto-o-algebri">
-    <bibo:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#analiza-podataka-1</bibo:citedBy>
-    <bibo:number>2</bibo:number>
-    <bibo:section>15</bibo:section>
-    <bibo:content>Nesto o algebri</bibo:content>
-  </bibo:Document>
   <acm:Course rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#C-5">
     <acm:isTaughtUsing rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#R-3"/>
     <acm:teaches>
@@ -937,12 +940,6 @@ CS2013)</acm:name>
       </acm:LearningOutcome>
     </acm:teaches>
   </acm:Course>
-  <bibo:Document rdf:about="http://purl.org/ontology/bibo/nesto-o-analizi-da">
-    <bibo:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#analiza-podataka-1</bibo:citedBy>
-    <bibo:number>3</bibo:number>
-    <bibo:section>5</bibo:section>
-    <bibo:content>Nesto o analizi da</bibo:content>
-  </bibo:Document>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#PL">
     <acm:name>Programming Languages</acm:name>
     <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
@@ -1019,6 +1016,7 @@ CS2013)</acm:name>
     </acm:consistsOf>
   </acm:KnowledgeArea>
   <acm:Course rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#C-3">
+    <acm:isTaughtUsing rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#INTRODUCTION-TO-MATHEMATICAL-ANALYSIS"/>
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#HCI-1-1"/>
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#GV-1-3"/>
     <acm:name>UI Design</acm:name>
@@ -1202,6 +1200,12 @@ CS2013)</acm:name>
     <acm:estimatedContactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
     >12</acm:estimatedContactHours>
   </acm:KnowledgeArea>
+  <bibo:Document rdf:about="http://purl.org/ontology/bibo/ANALYSIS-1">
+    <bibo:citedBy>http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#INTRODUCTION-TO-MATHEMATICAL-ANALYSIS</bibo:citedBy>
+    <bibo:number>3</bibo:number>
+    <bibo:section>5</bibo:section>
+    <bibo:content>Analysis 1</bibo:content>
+  </bibo:Document>
   <acm:Course rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#C-1">
     <acm:teaches>
       <acm:LearningOutcome rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#AL-1-2">
@@ -1227,6 +1231,7 @@ CS2013)</acm:name>
     <acm:teaches rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#CYB-1-1"/>
     <acm:levelOfStudyProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
     >6</acm:levelOfStudyProperty>
+    <acm:isTaughtUsing rdf:resource="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#INTRODUCTION-TO-MATHEMATICAL-ANALYSIS"/>
   </acm:Course>
   <acm:KnowledgeArea rdf:about="http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#DS">
     <acm:name>Discrete Structures</acm:name>

@@ -12,4 +12,6 @@ public interface DataService {
 
     String getUriId(String name);
 
+    String generateAcmUri(String name);
+
 }

@@ -60,6 +60,22 @@ public class DataServiceImpl implements DataService {
                     .addLiteral(biboOntology.getCitedBy(), id);
         }
 
+        for (String teachesCourses : dto.teachesCourses) {
+            Individual courseIndividual = om.getIndividual(generateAcmUri(teachesCourses));
+            System.out.println(generateAcmUri(teachesCourses));
+            if (courseIndividual != null) {
+                courseIndividual.addProperty(acmOntology.isTaughtUsing, fileIndividual);
+            }
+        }
+
+        for (String obtainedBy : dto.obtainedBy) {
+            Individual learningOutcome = om.getIndividual(generateAcmUri(obtainedBy));
+            System.out.println(generateAcmUri(obtainedBy));
+            if (learningOutcome != null) {
+                learningOutcome.addProperty(acmOntology.obtainedBy, fileIndividual);
+            }
+        }
+
         FileWriter out = new FileWriter(DATA_FILE, false);
         om.write(out, "RDF/XML");
         out.close();
@@ -201,7 +217,12 @@ public class DataServiceImpl implements DataService {
 
     @Override
     public String getUriId(String name) {
-        return name.toLowerCase().replace(" ", "-");
+        return name.toUpperCase().replace(" ", "-");
+    }
+
+    @Override
+    public String generateAcmUri(String name) {
+        return ACM_URI_PREFIX + getUriId(name);
     }
 
 }

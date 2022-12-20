@@ -12,5 +12,7 @@ public class FileUploadDTO {
     public String format;
     public String author;
     public List<BiboReferencesDTO> cites;
+    public List<String> obtainedBy;
+    public List<String> teachesCourses;
 
 }
