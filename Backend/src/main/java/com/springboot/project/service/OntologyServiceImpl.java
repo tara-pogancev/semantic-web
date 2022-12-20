@@ -61,7 +61,7 @@ public class OntologyServiceImpl implements OntologyService {
     public BiboOntologyModel getBiboOntologyModel(OntModel ontModel) throws IOException {
         BiboOntologyModel model = new BiboOntologyModel();
 
-        model.setDocument( ontModel.getResource(BIBO_URI_PREFIX + "Course").as(OntClass.class));
+        model.setDocument( ontModel.getResource(BIBO_URI_PREFIX + "Document").as(OntClass.class));
         model.setContentProprety(ontModel.getProperty(BIBO_URI_PREFIX + "content").as(OntProperty.class));
         model.setNumberProperty(ontModel.getProperty(BIBO_URI_PREFIX + "number").as(OntProperty.class));
         model.setSectionProperty(ontModel.getProperty(BIBO_URI_PREFIX + "section").as(OntProperty.class));

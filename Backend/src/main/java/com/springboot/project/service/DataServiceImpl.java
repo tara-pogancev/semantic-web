@@ -46,21 +46,18 @@ public class DataServiceImpl implements DataService {
 
         String id = ACM_URI_PREFIX + getUriId(dto.name);
         Individual fileIndividual = acmOntology.learningResource.createIndividual(id);
-        fileIndividual.addLiteral(acmOntology.difficultyLevelProperty, om.createTypedLiteral(dto.difficultyLevel.toString()))
-                .addLiteral(acmOntology.formatProperty, om.createTypedLiteral(dto.format))
-                .addLiteral(acmOntology.nameProperty, om.createTypedLiteral(dto.name))
-                .addLiteral(acmOntology.authorProperty, om.createTypedLiteral(dto.author));
-        om.createIndividual(fileIndividual);
+        fileIndividual.addLiteral(acmOntology.difficultyLevelProperty, (dto.difficultyLevel.toString()))
+                .addLiteral(acmOntology.formatProperty, (dto.format))
+                .addLiteral(acmOntology.nameProperty, (dto.name))
+                .addLiteral(acmOntology.authorProperty, (dto.author));
 
         for (BiboReferencesDTO biboReference : dto.cites) {
             String biboId = BIBO_URI_PREFIX + getUriId(biboReference.content);
             Individual referenceIndividual = biboOntology.document.createIndividual(biboId);
-            referenceIndividual.addLiteral(biboOntology.contentProprety, om.createTypedLiteral(biboReference.content))
-                    .addLiteral(biboOntology.sectionProperty, om.createTypedLiteral(biboReference.section.toString()))
-                    .addLiteral(biboOntology.numberProperty, om.createTypedLiteral(biboReference.number.toString()))
+            referenceIndividual.addLiteral(biboOntology.contentProprety, (biboReference.content))
+                    .addLiteral(biboOntology.sectionProperty, (biboReference.section.toString()))
+                    .addLiteral(biboOntology.numberProperty, (biboReference.number.toString()))
                     .addLiteral(biboOntology.getCitedBy(), id);
-
-            om.createIndividual(referenceIndividual);
         }
 
         FileWriter out = new FileWriter(DATA_FILE, false);
@@ -97,7 +94,6 @@ public class DataServiceImpl implements DataService {
             individual.addLiteral(acmOntology.nameProperty, om.createTypedLiteral(name));
             individual.addLiteral(acmOntology.estimatedContactHoursProperty, om.createTypedLiteral(estimatedContactHours));
             knowledgeAreas.put(id, individual);
-            om.createIndividual(individual);
         }
 
         // KNOWLEDGE UNITS
@@ -117,7 +113,6 @@ public class DataServiceImpl implements DataService {
             knowledgeAreaIndividual.addProperty(acmOntology.consistsOf, individual);
 
             knowledgeUnits.put(id, individual);
-            om.createIndividual(individual);
         }
 
         // LEARNING OUTCOMES
@@ -137,7 +132,6 @@ public class DataServiceImpl implements DataService {
             knowledgeUnitIndividual.addProperty(acmOntology.includes, individual);
 
             learningOutcomes.put(id, individual);
-            om.createIndividual(individual);
         }
 
         // COURSES
@@ -165,7 +159,6 @@ public class DataServiceImpl implements DataService {
             }
 
             courses.put(id, individual);
-            om.createIndividual(individual);
         }
 
         // LEARNING RESOURCES
@@ -197,7 +190,6 @@ public class DataServiceImpl implements DataService {
             }
 
             learningResources.put(id, individual);
-            om.createIndividual(individual);
         }
 
         FileWriter out = new FileWriter(DATA_FILE, false);
