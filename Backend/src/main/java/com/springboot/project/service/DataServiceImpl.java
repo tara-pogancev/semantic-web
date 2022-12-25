@@ -189,11 +189,13 @@ public class DataServiceImpl implements DataService {
             String[] learningOutcomeIds = currentRow.getCell(3).getStringCellValue().split(";");
             int difficultyLevel = (int) currentRow.getCell(4).getNumericCellValue();
             String format = currentRow.getCell(5).getStringCellValue();
+            String name = currentRow.getCell(6).getStringCellValue();
 
             Individual individual = acmOntology.learningResource.createIndividual(ACM_URI_PREFIX + id);
             individual.addLiteral(acmOntology.authorProperty, om.createTypedLiteral(author));
             individual.addLiteral(acmOntology.difficultyLevelProperty, om.createTypedLiteral(difficultyLevel));
             individual.addLiteral(acmOntology.formatProperty, om.createTypedLiteral(format));
+            individual.addLiteral(acmOntology.nameProperty, om.createTypedLiteral(name));
 
             for (String cId : coursesIds) {
                 Individual courseIndividual = courses.get(cId);
