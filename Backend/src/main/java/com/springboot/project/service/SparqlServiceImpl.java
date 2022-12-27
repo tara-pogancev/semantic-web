@@ -92,4 +92,53 @@ public class SparqlServiceImpl implements SparqlService {
         return retVal;
     }
 
+    @Override
+    public String getCoursesAndAuthorsForLearningOutcome(RequestDTO dto) {
+        OntModel om = ontologyService.getStarterModel();
+        om.read(DATA_FILE);
+
+        String courseQueryString =
+                "PREFIX acm: <http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#>\n" +
+                        "\n" +
+                        "SELECT ?name\n" +
+                        "WHERE {\n" +
+                        "    ?lo acm:description \"" + dto.learningOutcome + "\" .\n" +
+                        "    ?course acm:teaches ?lo .\n" +
+                        "    ?course acm:name ?name" +
+                        "}";
+
+        Query courseQuery = QueryFactory.create(courseQueryString);
+        QueryExecution cqe = QueryExecutionFactory.create(courseQuery, om);
+        ResultSet courseResults = cqe.execSelect();
+
+        String retVal = "Courses that teach: " + dto.learningOutcome + "\n\n";
+
+        while(courseResults.hasNext()) {
+            QuerySolution solution = courseResults.nextSolution();
+            String name = solution.getLiteral("name").getString();
+            retVal += courseResults.getRowNumber() + ". " + name + "\n\n";
+
+            String authorsQueryString =
+                    "PREFIX acm: <http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#>\n" +
+                            "\n" +
+                            "SELECT ?name\n" +
+                            "WHERE {\n" +
+                            "    ?course acm:name \"" + name + "\" .\n" +
+                            "    ?course acm:isTaughtUsing ?lr .\n" +
+                            "    ?lr acm:author ?name" +
+                            "}";
+
+            Query authorsQuery = QueryFactory.create(authorsQueryString);
+            QueryExecution aqe = QueryExecutionFactory.create(authorsQuery, om);
+            ResultSet authorsResults = aqe.execSelect();
+
+            retVal += "Resources for course written by:\n";
+            retVal += ResultSetFormatter.asText(authorsResults);
+            aqe.close();
+        }
+
+        cqe.close();
+        return retVal;
+    }
+
 }
