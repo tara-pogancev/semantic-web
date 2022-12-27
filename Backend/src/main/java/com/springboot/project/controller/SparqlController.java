@@ -26,5 +26,10 @@ public class SparqlController {
         return ResponseEntity.ok(sparqlService.getResourceForKnowledgeUnit(dto));
     }
 
+    @GetMapping("/courses-with-resources-by-author")
+    public ResponseEntity<?> getCoursesWithResourcesByAuthor(@RequestBody RequestDTO dto) {
+        return ResponseEntity.ok(sparqlService.getCoursesWithResourcesByAuthor(dto));
+    }
+
 
 }

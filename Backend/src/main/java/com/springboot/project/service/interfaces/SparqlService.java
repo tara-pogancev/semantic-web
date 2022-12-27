@@ -8,4 +8,5 @@ public interface SparqlService {
 
     String getResourceForKnowledgeUnit(RequestDTO dto);
 
+    String getCoursesWithResourcesByAuthor(RequestDTO dto);
 }

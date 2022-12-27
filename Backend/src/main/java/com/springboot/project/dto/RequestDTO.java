@@ -7,5 +7,6 @@ public class RequestDTO {
 
     public String course;
     public String knowledgeUnit;
+    public String author;
 
 }

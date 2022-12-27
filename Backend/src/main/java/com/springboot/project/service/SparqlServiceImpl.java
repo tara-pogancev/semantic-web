@@ -67,4 +67,29 @@ public class SparqlServiceImpl implements SparqlService {
         return retVal;
     }
 
+    @Override
+    public String getCoursesWithResourcesByAuthor(RequestDTO dto) {
+        OntModel om = ontologyService.getStarterModel();
+        om.read(DATA_FILE);
+
+        String queryString =
+                "PREFIX acm: <http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#>\n" +
+                        "\n" +
+                        "SELECT ?name\n" +
+                        "WHERE {\n" +
+                        "    ?lr acm:author \"" + dto.author + "\" .\n" +
+                        "    ?course acm:isTaughtUsing ?lr .\n" +
+                        "    ?course acm:name ?name" +
+                        "}";
+
+        Query query = QueryFactory.create(queryString);
+        QueryExecution qe = QueryExecutionFactory.create(query, om);
+        ResultSet results = qe.execSelect();
+
+        String retVal = "Courses with resources written by:" + dto.course + "\n\n";
+        retVal += ResultSetFormatter.asText(results);
+        qe.close();
+        return retVal;
+    }
+
 }
