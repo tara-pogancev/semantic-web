@@ -6,4 +6,6 @@ public interface SparqlService {
 
     String getResourceForCourse(RequestDTO dto);
 
+    String getResourceForKnowledgeUnit(RequestDTO dto);
+
 }

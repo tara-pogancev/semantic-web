@@ -6,5 +6,6 @@ import lombok.Data;
 public class RequestDTO {
 
     public String course;
+    public String knowledgeUnit;
 
 }
