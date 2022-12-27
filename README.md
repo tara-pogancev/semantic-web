@@ -56,15 +56,28 @@ http://localhost:8080/sparql/resources-for-knowledge-unit
 
 **3. For which courses do we need resources by a specific Author?**
 ```
-...
+http://localhost:8080/sparql/courses-with-resources-by-author
+
+{
+	"author": "Jelena Jelic"
+}
 ```
 
 **4. Which courses should i enroll in order to get a specific Learning Outcome? Which authors are the creators for those courses' Learning Resources?**
 ```
-...
+http://localhost:8080/sparql/courses-and-authors-for-learning-outcome
+
+{
+	"learningOutcome": "Describe security concerns in designing applications for use over wireless networks"
+}
 ```
 
 **5. Which documents are cited by a specific Author in a specific Resource Format?**
 ```
-...
+http://localhost:8080/sparql/documents-cited-by-author-in-format
+
+{
+	"author": "Pera Peric",
+	"resourceFormat": "csv"
+}
 ```
