@@ -11,4 +11,6 @@ public interface SparqlService {
     String getCoursesWithResourcesByAuthor(RequestDTO dto);
 
     String getCoursesAndAuthorsForLearningOutcome(RequestDTO dto);
+
+    String getDocumentsCitedByAuthorInFormat(RequestDTO dto);
 }

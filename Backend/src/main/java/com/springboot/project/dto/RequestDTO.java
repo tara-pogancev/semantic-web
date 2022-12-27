@@ -9,5 +9,6 @@ public class RequestDTO {
     public String knowledgeUnit;
     public String author;
     public String learningOutcome;
+    public String resourceFormat;
 
 }

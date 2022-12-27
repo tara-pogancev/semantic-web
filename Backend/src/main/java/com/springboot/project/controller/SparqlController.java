@@ -36,5 +36,10 @@ public class SparqlController {
         return ResponseEntity.ok(sparqlService.getCoursesAndAuthorsForLearningOutcome(dto));
     }
 
+    @GetMapping("/documents-cited-by-author-in-format")
+    public ResponseEntity<?> getDocumentsCitedByAuthorInFormat (@RequestBody RequestDTO dto) {
+        return ResponseEntity.ok(sparqlService.getDocumentsCitedByAuthorInFormat(dto));
+    }
+
 
 }
