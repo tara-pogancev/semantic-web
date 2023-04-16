@@ -6,6 +6,8 @@ public interface SparqlService {
 
     String getResourceForCourse(RequestDTO dto);
 
+    String chatGPTPrompt(String queryString);
+
     String getResourceForKnowledgeUnit(RequestDTO dto);
 
     String getCoursesWithResourcesByAuthor(RequestDTO dto);

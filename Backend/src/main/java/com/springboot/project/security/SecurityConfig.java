@@ -45,6 +45,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/login/**", "/login", "/register", "/register/**").permitAll()
                 .antMatchers("/swagger-ui/**").permitAll()
                 .antMatchers("/sparql", "/sparql/**").permitAll()
+                .antMatchers("/chat", "/chat/**").permitAll()
                 .antMatchers("/data", "/data/**").permitAll()
                 .antMatchers("/v3/api-docs/**").permitAll()
                 .anyRequest()

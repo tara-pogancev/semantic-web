@@ -17,6 +17,32 @@ public class SparqlServiceImpl implements SparqlService {
     private final OntologyService ontologyService;
 
     @Override
+    public String chatGPTPrompt(String queryString) {
+        OntModel om = ontologyService.getStarterModel();
+        om.read(DATA_FILE);
+
+        if (!queryString.contains("PREFIX acm:")) {
+           queryString = "PREFIX acm: <http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#> " + queryString;
+        }
+
+        queryString = queryString.replace("\\n", " ");
+        queryString = queryString.replace("\\t", " ");
+        queryString = queryString.replace("\\", "");
+        queryString = queryString.replace("SPARQL Query:", "");
+        System.out.println("================");
+        System.out.println(queryString);
+        System.out.println("================");
+
+        Query query = QueryFactory.create(queryString);
+        QueryExecution qe = QueryExecutionFactory.create(query, om);
+        ResultSet results = qe.execSelect();
+
+        String retVal = ResultSetFormatter.asText(results);
+        qe.close();
+        return retVal;
+    }
+
+    @Override
     public String getResourceForCourse(RequestDTO dto) {
         OntModel om = ontologyService.getStarterModel();
         om.read(DATA_FILE);
