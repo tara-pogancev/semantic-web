@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "./app/custom-theme.scss";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Layout */
+.centered-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.stretch-width {
+  width: 100%;
+}
+
+.stretch-height {
+  height: 100%;
+}
+
+/* Max width */
+.max-width-500 {
+  max-width: 500px;
+}
+
+.max-width-600 {
+  max-width: 600px;
+}
+
+.max-width-700 {
+  max-width: 700px;
+}
+
+.max-width-800 {
+  max-width: 800px;
+}
+
+.max-width-900 {
+  max-width: 900px;
+}
+
+.max-width-1200 {
+  max-width: 1200px;
+}
+
+/* Border */
+.container {
+  border: 0.8px solid lightgray;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+/* Aditional */
+.clickable {
+  cursor: pointer;
+}
+
+.auto-margin {
+  margin: auto;
+}
