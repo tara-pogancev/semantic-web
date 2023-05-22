@@ -14,14 +14,14 @@
 
 $light: #ebf0f2;
 $dark: #1e1e2d;
-$primary: #c97156;
+$primary: #5756f9;
 $accent: #82839e;
-$dark-accent: #e64e4d;
+$dark-accent: #5633c1;
 
 $application-primary: (
-  default: #c97156,
-  lighter: #e78e72,
-  darker: #a05139,
+  default: #5756f9,
+  lighter: #729be7,
+  darker: #3c39a0,
 
   text: #1e1e2d,
   text-light: #ebf0f2,
@@ -95,4 +95,3 @@ p {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 400;
 }
-

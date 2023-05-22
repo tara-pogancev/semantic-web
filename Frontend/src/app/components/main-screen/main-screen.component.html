@@ -1,0 +1,23 @@
+<div class="container-main">
+  <div class="columns is-gapless">
+    <div class="column is-4">
+      <side-menu></side-menu>
+    </div>
+    <div class="column is-flex is-flex-direction-column">
+      <app-header></app-header>
+      <div class="form-container is-flex is-flex-direction-column">
+        <mat-form-field appearance="fill">
+          <mat-label>Type your prompt</mat-label>
+          <input matInput placeholder="" />
+          <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+        <div class="response-box is-flex is-flex-direction-row">
+          <img src="/assets/robot.png" />
+          <div class="response-container">
+            <p>Hi! Im happy to assist you today!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
