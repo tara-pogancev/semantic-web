@@ -8,21 +8,26 @@ import { MaterialModule } from './material-module';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainScreenComponent } from './components/main-screen/main-screen.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideMenuComponent,
     HeaderComponent,
-    MainScreenComponent
+    MainScreenComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule, 
-    MaterialModule
+    BrowserAnimationsModule,
+    MaterialModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

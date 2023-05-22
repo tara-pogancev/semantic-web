@@ -29,3 +29,21 @@
   border-radius: 0px 30px 30px 30px;
   color: white;
 }
+
+mat-spinner {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+::ng-deep .mat-mdc-progress-spinner {
+  --mdc-circular-progress-active-indicator-color: white;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+.response {
+  white-space: pre-wrap;
+  font-family: "Courier New", Courier, monospace !important;
+}

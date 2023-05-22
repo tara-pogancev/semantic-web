@@ -8,13 +8,23 @@
       <div class="form-container is-flex is-flex-direction-column">
         <mat-form-field appearance="fill">
           <mat-label>Type your prompt</mat-label>
-          <input matInput placeholder="" />
+          <input
+            matInput
+            placeholder="What does the course Semantic Web teach?"
+            [(ngModel)]="promptText"
+            (keyup.enter)="performQuery()"
+          />
           <mat-icon matSuffix>search</mat-icon>
         </mat-form-field>
         <div class="response-box is-flex is-flex-direction-row">
           <img src="/assets/robot.png" />
           <div class="response-container">
-            <p>Hi! Im happy to assist you today!</p>
+            <mat-spinner *ngIf="isLoading"></mat-spinner>
+            <div
+              class="response"
+              *ngIf="!isLoading && !errorResponse"
+              [innerHTML]="responseText"
+            ></div>
           </div>
         </div>
       </div>
