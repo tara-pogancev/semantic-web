@@ -3,23 +3,24 @@
   <mat-list class="p-2">
     <div mat-subheader>Prewritten Commands</div>
     <mat-divider></mat-divider>
-    <mat-list-item matTooltip="Get resources for a specific course">
+    <mat-list-item matTooltip="Get resources for a specific course" (click)="selectCard(0)">
       <mat-icon matListItemIcon>book</mat-icon>
       <div matListItemTitle>Get Resources for Course</div>
       <div matListItemLine>Get resources for a specific course</div>
     </mat-list-item>
-    <mat-list-item matTooltip="Get resources for a specific knowledge unit">
+    <mat-list-item matTooltip="Get resources for a specific knowledge unit" (click)="selectCard(1)">
       <mat-icon matListItemIcon>bookmark</mat-icon>
       <div matListItemTitle>Get Resources for Knowledge Unit</div>
       <div matListItemLine>Get resources for a specific knowledge unit</div>
     </mat-list-item>
-    <mat-list-item matTooltip="Get courses for a specific author">
+    <mat-list-item matTooltip="Get courses for a specific author" (click)="selectCard(2)">
       <mat-icon matListItemIcon>library_books</mat-icon>
       <div matListItemTitle>Get Courses for Author</div>
       <div matListItemLine>Get courses for a specific author</div>
     </mat-list-item>
     <mat-list-item
       matTooltip="Get courses and authors for a specific learning outcome"
+      (click)="selectCard(3)"
     >
       <mat-icon matListItemIcon>person</mat-icon>
       <div matListItemTitle>Get Courses and Authors for Learning Outcome</div>
@@ -29,6 +30,7 @@
     </mat-list-item>
     <mat-list-item
       matTooltip="Get documents cited by a specific author in a specific resource format"
+      (click)="selectCard(4)"
     >
       <mat-icon matListItemIcon>collections_bookmark</mat-icon>
       <div matListItemTitle>Get Documents Cited by Author in Format</div>

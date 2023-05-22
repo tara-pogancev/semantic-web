@@ -1,7 +1,7 @@
 <div class="container-main">
   <div class="columns is-gapless">
     <div class="column is-4">
-      <side-menu></side-menu>
+      <side-menu (cardClicked)="cardClicked($event)"></side-menu>
     </div>
     <div class="column is-flex is-flex-direction-column">
       <app-header></app-header>

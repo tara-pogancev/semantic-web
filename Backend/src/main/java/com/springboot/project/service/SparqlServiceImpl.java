@@ -22,7 +22,7 @@ public class SparqlServiceImpl implements SparqlService {
         om.read(DATA_FILE);
 
         if (!queryString.contains("PREFIX acm:")) {
-           queryString = "PREFIX acm: <http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#> " + queryString;
+            queryString = "PREFIX acm: <http://www.semanticweb.org/sasaboros/ontologies/2020/11/sec_ontology#> " + queryString;
         }
 
         queryString = queryString.replace("\\n", " ");
@@ -139,7 +139,7 @@ public class SparqlServiceImpl implements SparqlService {
 
         String retVal = "Courses that teach: " + dto.learningOutcome + "\n\n";
 
-        while(courseResults.hasNext()) {
+        while (courseResults.hasNext()) {
             QuerySolution solution = courseResults.nextSolution();
             String name = solution.getLiteral("name").getString();
             retVal += courseResults.getRowNumber() + ". " + name + "\n\n";

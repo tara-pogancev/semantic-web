@@ -5,9 +5,6 @@ import com.springboot.project.model.ApplicationUser;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Component
 public class ApplicationUserToDTO implements Converter<ApplicationUser, ApplicationUserDTO> {
 

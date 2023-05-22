@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'side-menu',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class SideMenuComponent {
 
+  @Output() cardClicked: EventEmitter<number> = new EventEmitter<number>()
+
+  selectCard(index: number) {
+    this.cardClicked.emit(index)
+  }
+
 }
+ 

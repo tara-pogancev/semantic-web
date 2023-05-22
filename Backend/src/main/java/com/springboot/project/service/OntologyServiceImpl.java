@@ -31,7 +31,7 @@ public class OntologyServiceImpl implements OntologyService {
         AcmOntologyModel model = new AcmOntologyModel();
 
         // classes
-        model.setCourse( ontModel.getResource(ACM_URI_PREFIX + "Course").as(OntClass.class));
+        model.setCourse(ontModel.getResource(ACM_URI_PREFIX + "Course").as(OntClass.class));
         model.setKnowledgeArea(ontModel.getResource(ACM_URI_PREFIX + "KnowledgeArea").as(OntClass.class));
         model.setKnowledgeUnit(ontModel.getResource(ACM_URI_PREFIX + "KnowledgeUnit").as(OntClass.class));
         model.setLearningResource(ontModel.getResource(ACM_URI_PREFIX + "LearningResource").as(OntClass.class));
@@ -61,7 +61,7 @@ public class OntologyServiceImpl implements OntologyService {
     public BiboOntologyModel getBiboOntologyModel(OntModel ontModel) throws IOException {
         BiboOntologyModel model = new BiboOntologyModel();
 
-        model.setDocument( ontModel.getResource(BIBO_URI_PREFIX + "Document").as(OntClass.class));
+        model.setDocument(ontModel.getResource(BIBO_URI_PREFIX + "Document").as(OntClass.class));
         model.setContentProprety(ontModel.getProperty(BIBO_URI_PREFIX + "content").as(OntProperty.class));
         model.setNumberProperty(ontModel.getProperty(BIBO_URI_PREFIX + "number").as(OntProperty.class));
         model.setSectionProperty(ontModel.getProperty(BIBO_URI_PREFIX + "section").as(OntProperty.class));
@@ -72,16 +72,16 @@ public class OntologyServiceImpl implements OntologyService {
 
     @Override
     public OntModel getAcmOntModel() throws IOException {
-        OntModel ontModel =  ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        OntModel ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
         ontModel.read(new FileInputStream(new ClassPathResource(ACM_ONTOLOGY).getFile()), "");
         ontModel.setStrictMode(false);
         ontModel.setNsPrefix("acm", ACM_URI_PREFIX);
-        return  ontModel;
+        return ontModel;
     }
 
     @Override
     public OntModel getBiboOntModel() throws IOException {
-        OntModel ontModel =  ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        OntModel ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
         ontModel.read(new FileInputStream(new ClassPathResource(BIBO_ONTOLOGY).getFile()), "");
         ontModel.setStrictMode(false);
         ontModel.setNsPrefix("bibo", BIBO_URI_PREFIX);
